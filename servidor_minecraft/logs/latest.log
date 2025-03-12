@@ -1,0 +1,334 @@
+[12Mar2025 19:43:16.847] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[12Mar2025 19:43:16.851] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1021-azure
+[12Mar2025 19:43:17.869] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[12Mar2025 19:43:17.926] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Sim89/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[12Mar2025 19:43:18.200] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Sim89/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[12Mar2025 19:43:18.202] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Sim89/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[12Mar2025 19:43:18.203] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Sim89/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[12Mar2025 19:43:18.204] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Sim89/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[12Mar2025 19:43:18.471] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 3 dependencies adding them to mods collection
+[12Mar2025 19:43:20.454] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[12Mar2025 19:43:20.543] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[12Mar2025 19:43:21.310] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/MultiPlayerGameMode for invalid dist DEDICATED_SERVER
+[12Mar2025 19:43:21.311] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/MultiPlayerGameMode (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/MultiPlayerGameMode for invalid dist DEDICATED_SERVER)
+[12Mar2025 19:43:21.312] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.multiplayer.MultiPlayerGameMode was not found mixins.cofhcore.json:MultiPlayerGameModeMixin
+[12Mar2025 19:43:21.458] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/minecolonies/core/compatibility/jei/GenericRecipeCategory for invalid dist DEDICATED_SERVER
+[12Mar2025 19:43:21.459] [main/WARN] [mixin/]: Error loading class: com/minecolonies/core/compatibility/jei/GenericRecipeCategory (java.lang.RuntimeException: Attempted to load class com/minecolonies/core/compatibility/jei/GenericRecipeCategory for invalid dist DEDICATED_SERVER)
+[12Mar2025 19:43:21.459] [main/WARN] [mixin/]: @Mixin target com.minecolonies.core.compatibility.jei.GenericRecipeCategory was not found minecolonies_compatibility.mixin.common.json:minecolonies.GenericRecipeCategoryMixin
+[12Mar2025 19:43:21.474] [main/WARN] [mixin/]: Error loading class: com/legacy/blue_skies/blocks/natural/BrewberryBushBlock (java.lang.ClassNotFoundException: com.legacy.blue_skies.blocks.natural.BrewberryBushBlock)
+[12Mar2025 19:43:21.474] [main/WARN] [mixin/]: @Mixin target com.legacy.blue_skies.blocks.natural.BrewberryBushBlock was not found minecolonies_compatibility.mixin.common.json:blue_skies.BrewberryBushBlockAccessor
+[12Mar2025 19:43:21.476] [main/WARN] [mixin/]: Error loading class: com/lance5057/butchercraft/workstations/butcherblock/ButcherBlockBlockEntity (java.lang.ClassNotFoundException: com.lance5057.butchercraft.workstations.butcherblock.ButcherBlockBlockEntity)
+[12Mar2025 19:43:21.477] [main/WARN] [mixin/]: @Mixin target com.lance5057.butchercraft.workstations.butcherblock.ButcherBlockBlockEntity was not found minecolonies_compatibility.mixin.common.json:butchercraft.ButcherBlockBlockEntityAccessor
+[12Mar2025 19:43:21.479] [main/WARN] [mixin/]: Error loading class: com/lance5057/butchercraft/workstations/hook/MeatHookBlockEntity (java.lang.ClassNotFoundException: com.lance5057.butchercraft.workstations.hook.MeatHookBlockEntity)
+[12Mar2025 19:43:21.480] [main/WARN] [mixin/]: @Mixin target com.lance5057.butchercraft.workstations.hook.MeatHookBlockEntity was not found minecolonies_compatibility.mixin.common.json:butchercraft.MeatHookBlockEntityAccessor
+[12Mar2025 19:43:21.482] [main/WARN] [mixin/]: Error loading class: com/cobblemon/mod/common/block/BerryBlock (java.lang.ClassNotFoundException: com.cobblemon.mod.common.block.BerryBlock)
+[12Mar2025 19:43:21.483] [main/WARN] [mixin/]: @Mixin target com.cobblemon.mod.common.block.BerryBlock was not found minecolonies_compatibility.mixin.common.json:cobblemon.BerryBlockAccessor
+[12Mar2025 19:43:21.485] [main/WARN] [mixin/]: Error loading class: com/lothrazar/cyclic/block/apple/AppleCropBlock (java.lang.ClassNotFoundException: com.lothrazar.cyclic.block.apple.AppleCropBlock)
+[12Mar2025 19:43:21.485] [main/WARN] [mixin/]: @Mixin target com.lothrazar.cyclic.block.apple.AppleCropBlock was not found minecolonies_compatibility.mixin.common.json:cyclic.AppleCropBlockAccessor
+[12Mar2025 19:43:21.488] [main/WARN] [mixin/]: Error loading class: com/mrbysco/oreberriesreplanted/block/OreBerryBushBlock (java.lang.ClassNotFoundException: com.mrbysco.oreberriesreplanted.block.OreBerryBushBlock)
+[12Mar2025 19:43:21.489] [main/WARN] [mixin/]: @Mixin target com.mrbysco.oreberriesreplanted.block.OreBerryBushBlock was not found minecolonies_compatibility.mixin.common.json:oreberries.OreBerryBushBlockAccessor
+[12Mar2025 19:43:21.491] [main/WARN] [mixin/]: Error loading class: reliquary/items/HandgunItem (java.lang.ClassNotFoundException: reliquary.items.HandgunItem)
+[12Mar2025 19:43:21.492] [main/WARN] [mixin/]: @Mixin target reliquary.items.HandgunItem was not found minecolonies_compatibility.mixin.common.json:reliquary.HandgunItemAccessor
+[12Mar2025 19:43:21.495] [main/WARN] [mixin/]: Error loading class: reliquary/entities/shot/NeutralShotEntity (java.lang.ClassNotFoundException: reliquary.entities.shot.NeutralShotEntity)
+[12Mar2025 19:43:21.495] [main/WARN] [mixin/]: @Mixin target reliquary.entities.shot.NeutralShotEntity was not found minecolonies_compatibility.mixin.common.json:reliquary.NeutralShotEntityMixin
+[12Mar2025 19:43:22.101] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[12Mar2025 19:43:28.148] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Warped Netherlands
+[12Mar2025 19:43:28.156] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Stalactite Caves
+[12Mar2025 19:43:28.157] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Space Wars
+[12Mar2025 19:43:28.158] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Shire
+[12Mar2025 19:43:28.160] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Desert Oasis
+[12Mar2025 19:43:28.160] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Pagoda
+[12Mar2025 19:43:28.160] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Minecolonies Original
+[12Mar2025 19:43:28.161] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Nordic Spruce
+[12Mar2025 19:43:28.163] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Medieval Spruce
+[12Mar2025 19:43:28.163] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Medieval Oak
+[12Mar2025 19:43:28.163] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Medieval Dark Oak
+[12Mar2025 19:43:28.163] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Medieval Birch
+[12Mar2025 19:43:28.165] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Lost Mesa City
+[12Mar2025 19:43:28.166] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Jungle Treehouse
+[12Mar2025 19:43:28.166] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Incan
+[12Mar2025 19:43:28.172] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Fortress
+[12Mar2025 19:43:28.172] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Dark Oak Treehouse
+[12Mar2025 19:43:28.173] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Colonial
+[12Mar2025 19:43:28.173] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Cavern
+[12Mar2025 19:43:28.173] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Caledonia
+[12Mar2025 19:43:28.173] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Urban Birch
+[12Mar2025 19:43:28.173] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Ancient Athens
+[12Mar2025 19:43:28.174] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Urban Savanna
+[12Mar2025 19:43:28.174] [Structurize IO Worker #0/WARN] [structurize/]: Failed loading packs from main folder path: .
+[12Mar2025 19:43:28.174] [Structurize IO Worker #0/WARN] [structurize/]: Failed loading client packs from main folder path: .
+[12Mar2025 19:43:28.174] [Structurize IO Worker #0/WARN] [structurize/]: Finished discovering Server Structure packs
+[12Mar2025 19:43:28.202] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[12Mar2025 19:43:28.203] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[12Mar2025 19:43:28.965] [modloading-worker-0/WARN] [minecolonies/]: |======================================================================================================================================|
+[12Mar2025 19:43:28.966] [modloading-worker-0/WARN] [minecolonies/]: |                                                                                                                                      |
+[12Mar2025 19:43:28.967] [modloading-worker-0/WARN] [minecolonies/]: | Minecolonies has detected an addon mod that alters Minecolonies core code recklessly: 'Tweaks/Compatibility addon for Minecolonies'. |
+[12Mar2025 19:43:28.968] [modloading-worker-0/WARN] [minecolonies/]: |          Please report any bugs or issues you find directly to the authors of this addon, as the Official Minecolonies Team          |
+[12Mar2025 19:43:28.968] [modloading-worker-0/WARN] [minecolonies/]: |               will not be able to provide you any support with potential issues that will arise when using this addon.               |
+[12Mar2025 19:43:28.970] [modloading-worker-0/WARN] [minecolonies/]: |                                                                                                                                      |
+[12Mar2025 19:43:28.970] [modloading-worker-0/WARN] [minecolonies/]: |======================================================================================================================================|
+[12Mar2025 19:43:30.558] [main/INFO] [Moonlight/]: Initialized block sets in 17ms
+[12Mar2025 19:43:31.148] [main/INFO] [steve_gall.minecolonies_tweaks.core.common.MineColoniesTweaks/]: CustomToolTypeData Added: minecolonies_tweaks:crossbow
+[12Mar2025 19:43:31.149] [main/INFO] [steve_gall.minecolonies_tweaks.core.common.MineColoniesTweaks/]: CustomToolTypeData Added: minecolonies_tweaks:gun
+[12Mar2025 19:43:31.149] [main/INFO] [steve_gall.minecolonies_tweaks.core.common.MineColoniesTweaks/]: CustomToolTypeData Added: minecolonies_tweaks:knife
+[12Mar2025 19:43:31.149] [main/INFO] [steve_gall.minecolonies_tweaks.core.common.MineColoniesTweaks/]: CustomToolTypeData Added: minecolonies_tweaks:ranger_weapon
+[12Mar2025 19:43:31.149] [main/INFO] [steve_gall.minecolonies_tweaks.core.common.MineColoniesTweaks/]: CustomToolTypeData Added: minecolonies_tweaks:knight_weapon
+[12Mar2025 19:43:31.150] [main/INFO] [steve_gall.minecolonies_tweaks.core.common.MineColoniesTweaks/]: CustomToolTypeData Added: minecolonies_tweaks:butcher_tool
+[12Mar2025 19:43:31.308] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/Sim89/servidor_minecraft/config/moonlight-common.toml is not correct. Correcting
+[12Mar2025 19:43:31.309] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[12Mar2025 19:43:31.310] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.clear_dynamic_resources was corrected from null to its default, false. 
+[12Mar2025 19:43:31.395] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/Sim89/servidor_minecraft/config/storagenetwork.toml is not correct. Correcting
+[12Mar2025 19:43:31.396] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key storagenetwork.facades.itemsNotAllowed was corrected from [minecraft:ladder, minecraft:double_plant, minecraft:waterlily, minecraft:torch, minecraft:*_torch, minecraft:redstone, minecraft:iron_bars, minecraft:chest, minecraft:ender_chest, minecraft:sculk_vein, minecraft:string, minecraft:vine, minecraft:rail, minecraft:*_rail, minecraft:brewing_stand, minecraft:*_dripleaf, minecraft:*_pane, minecraft:*_sapling, minecraft:*_sign, minecraft:*_door, minecraft:*_banner, minecraft:*_shulker_box, cyclic:*_pipe, cyclic:*_bars, storagenetwork:*] to its default, [minecraft:ladder, minecraft:double_plant, minecraft:waterlily, minecraft:torch, minecraft:*_torch, minecraft:redstone, minecraft:iron_bars, minecraft:chest, minecraft:ender_chest, minecraft:sculk_vein, minecraft:string, minecraft:vine, minecraft:rail, minecraft:*_rail, minecraft:brewing_stand, minecraft:*_dripleaf, minecraft:*_pane, minecraft:*_sapling, minecraft:*_sign, minecraft:*_door, minecraft:*_banner, minecraft:*_shulker_box, cyclic:*_pipe, cyclic:*_bars, storagenetwork:*]. 
+[12Mar2025 19:43:31.754] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
+[12Mar2025 19:43:31.813] [main/INFO] [Moonlight/]: Initialized color sets in 26ms
+[12Mar2025 19:43:31.900] [modloading-worker-0/WARN] [minecolonies/]: Register mappings
+[12Mar2025 19:43:32.145] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.13.72 Target: null
+[12Mar2025 19:43:32.146] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [storagenetwork] Starting version check at https://raw.githubusercontent.com/Lothrazar/Storage-Network/trunk/1.19/update.json
+[12Mar2025 19:43:32.166] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [storagenetwork] Found status: BETA Current: 1.11.3 Target: null
+[12Mar2025 19:43:32.166] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[12Mar2025 19:43:32.325] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[12Mar2025 19:43:32.325] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cofh_core] Starting version check at https://raw.github.com/cofh/version/main/cofh_core/update.json
+[12Mar2025 19:43:32.398] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cofh_core] Found status: AHEAD Current: 11.0.2 Target: null
+[12Mar2025 19:43:32.402] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal] Starting version check at https://raw.github.com/cofh/version/main/thermal/update.json
+[12Mar2025 19:43:32.428] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal] Found status: AHEAD Current: 11.0.6 Target: null
+[12Mar2025 19:43:32.430] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal_innovation] Starting version check at https://raw.github.com/cofh/version/main/thermal/update_innovation.json
+[12Mar2025 19:43:32.471] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal_innovation] Found status: AHEAD Current: 11.0.1 Target: null
+[12Mar2025 19:43:32.471] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal_cultivation] Starting version check at https://raw.github.com/cofh/version/main/thermal/update_cultivation.json
+[12Mar2025 19:43:32.544] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal_cultivation] Found status: UP_TO_DATE Current: 11.0.1 Target: null
+[12Mar2025 19:43:32.544] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal_foundation] Starting version check at https://raw.github.com/cofh/version/main/thermal/update_foundation.json
+[12Mar2025 19:43:32.573] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal_foundation] Found status: AHEAD Current: 11.0.6 Target: null
+[12Mar2025 19:43:32.574] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal_locomotion] Starting version check at https://raw.github.com/cofh/version/main/thermal/update_locomotion.json
+[12Mar2025 19:43:32.595] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal_locomotion] Found status: UP_TO_DATE Current: 11.0.1 Target: null
+[12Mar2025 19:43:32.595] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal_dynamics] Starting version check at https://raw.github.com/cofh/version/main/thermal/update_dynamics.json
+[12Mar2025 19:43:32.622] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal_dynamics] Found status: UP_TO_DATE Current: 11.0.1 Target: null
+[12Mar2025 19:43:35.505] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12Mar2025 19:43:35.771] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: moonlight:placeable_item Expected: 1432 Got: 2310
+[12Mar2025 19:43:37.195] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Sim89/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23145!/assets/.mcassetsroot' uses unexpected schema
+[12Mar2025 19:43:37.195] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Sim89/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23145!/data/.mcassetsroot' uses unexpected schema
+[12Mar2025 19:43:39.055] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:minecolonies_compatibility:blocks/citizen_grid
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'minecolonies_compatibility:citizen_grid'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23150!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23150!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[12Mar2025 19:43:39.470] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 29 recipes
+[12Mar2025 19:43:39.605] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1772 advancements
+[12Mar2025 19:43:39.614] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
+[12Mar2025 19:43:39.618] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[12Mar2025 19:43:39.623] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Unable to decode loot conditions
+com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternatives'
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:99) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.loot.IGlobalLootModifier.lambda$static$1(IGlobalLootModifier.java:39) ~[forge-1.20.1-47.3.7-universal.jar%23150!/:?]
+	at com.mojang.serialization.Decoder$1.lambda$decode$1(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder$1.decode(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Codec$2.decode(Codec.java:71) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.FieldDecoder.decode(FieldDecoder.java:29) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapCodec$1.decode(MapCodec.java:34) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$Instance$5.decode(RecordCodecBuilder.java:323) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$2.decode(RecordCodecBuilder.java:107) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$3(KeyDispatchCodec.java:67) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$4(KeyDispatchCodec.java:58) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.decode(KeyDispatchCodec.java:56) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.apply(LootModifierManager.java:79) ~[forge-1.20.1-47.3.7-universal.jar%23150!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.m_5787_(LootModifierManager.java:38) ~[forge-1.20.1-47.3.7-universal.jar%23150!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[12Mar2025 19:43:39.627] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id nethersdelight:chopping_leather - error: Unknown type 'minecraft:alternatives'
+[12Mar2025 19:43:39.628] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Unable to decode loot conditions
+com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:99) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.loot.IGlobalLootModifier.lambda$static$1(IGlobalLootModifier.java:39) ~[forge-1.20.1-47.3.7-universal.jar%23150!/:?]
+	at com.mojang.serialization.Decoder$1.lambda$decode$1(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder$1.decode(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Codec$2.decode(Codec.java:71) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.FieldDecoder.decode(FieldDecoder.java:29) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapCodec$1.decode(MapCodec.java:34) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$Instance$5.decode(RecordCodecBuilder.java:323) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$2.decode(RecordCodecBuilder.java:107) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$3(KeyDispatchCodec.java:67) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$4(KeyDispatchCodec.java:58) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.decode(KeyDispatchCodec.java:56) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.apply(LootModifierManager.java:79) ~[forge-1.20.1-47.3.7-universal.jar%23150!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.m_5787_(LootModifierManager.java:38) ~[forge-1.20.1-47.3.7-universal.jar%23150!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[12Mar2025 19:43:39.629] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id nethersdelight:chopping_string - error: Unknown type 'minecraft:alternative'
+[12Mar2025 19:43:39.631] [main/INFO] [minecolonies/]: Beginning load of custom recipes for colony workers
+[12Mar2025 19:43:39.642] [main/INFO] [minecolonies/]: Loaded 160 recipes for 16 crafters
+[12Mar2025 19:43:39.643] [main/INFO] [minecolonies/]: Beginning load of research for University.
+[12Mar2025 19:43:39.753] [main/INFO] [minecolonies/]: Loaded 202 recipes for 4 research branches
+[12Mar2025 19:43:39.756] [main/INFO] [minecolonies/]: Loading quests from data
+[12Mar2025 19:43:39.765] [main/INFO] [minecolonies/]: Finished loading quests from data
+[12Mar2025 19:43:39.769] [main/WARN] [minecolonies/]: Read 1544 items with their nbt keys for compatibility.
+[12Mar2025 19:43:41.263] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[12Mar2025 19:43:41.264] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[12Mar2025 19:43:41.264] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[12Mar2025 19:43:41.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[12Mar2025 19:43:41.397] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[12Mar2025 19:43:41.422] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[12Mar2025 19:43:41.505] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12Mar2025 19:43:41.506] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[12Mar2025 19:43:41.506] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12Mar2025 19:43:41.507] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[12Mar2025 19:43:41.598] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[12Mar2025 19:43:44.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[12Mar2025 19:43:46.039] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[12Mar2025 19:43:47.680] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Mar2025 19:43:47.682] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Mar2025 19:43:47.684] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Mar2025 19:43:47.688] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Mar2025 19:43:47.689] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Mar2025 19:43:47.689] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Mar2025 19:43:47.690] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Mar2025 19:43:48.079] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[12Mar2025 19:43:48.280] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[12Mar2025 19:43:48.576] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
+[12Mar2025 19:43:48.817] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4242 ms
+[12Mar2025 19:43:48.818] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (7.298s)! For help, type "help"
+[12Mar2025 19:43:48.855] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[12Mar2025 19:43:48.955] [Server thread/INFO] [minecolonies/]: Finished discovering Ores 39 34
+[12Mar2025 19:43:48.956] [Server thread/INFO] [minecolonies/]: Finished discovering saplings 2609
+[12Mar2025 19:43:48.956] [Server thread/INFO] [minecolonies/]: Finished discovering plantables 19
+[12Mar2025 19:43:48.956] [Server thread/INFO] [minecolonies/]: Finished discovering food 200 229
+[12Mar2025 19:43:48.957] [Server thread/INFO] [minecolonies/]: Finished discovering fuel 332
+[12Mar2025 19:43:48.957] [Server thread/INFO] [minecolonies/]: Finished discovering flowers 32
+[12Mar2025 19:43:48.957] [Server thread/INFO] [minecolonies/]: Finished discovering items 2594
+[12Mar2025 19:43:48.957] [Server thread/INFO] [minecolonies/]: Finished discovering recruitment costs
+[12Mar2025 19:43:48.961] [Server thread/INFO] [minecolonies/]: Finished discovering compostables 368
+[12Mar2025 19:44:16.116] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LuxSilver[/127.69.220.99:47719] logged in with entity id 191 at (0.5, 86.0, -2.5)
+[12Mar2025 19:44:16.260] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuxSilver joined the game
+[12Mar2025 19:44:16.672] [Server thread/INFO] [structurize/]: New Server UUID b01ca45b-90b5-4748-abf9-0afb7ff4393b
+[12Mar2025 19:45:21.839] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LuxSilver lost connection: Disconnected
+[12Mar2025 19:45:21.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuxSilver left the game
