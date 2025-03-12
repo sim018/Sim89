@@ -2627,3 +2627,5 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 [12Mar2025 21:32:22.056] [Server thread/INFO] [structurize/]: New Server UUID 7ec0d08b-0691-4fa1-a6c7-23b16e533474
 [12Mar2025 21:34:13.437] [Server thread/ERROR] [placebo/]: Failed to locate any gear sets matching the following predicates: 
 [12Mar2025 21:34:13.437] [Server thread/ERROR] [placebo/]: SetPredicate[#irons_spellbooks]
+[12Mar2025 21:36:02.741] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LuxSilver lost connection: Disconnected
+[12Mar2025 21:36:02.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuxSilver left the game

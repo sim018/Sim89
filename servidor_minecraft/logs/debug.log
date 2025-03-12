@@ -7753,3 +7753,9 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 [12Mar2025 21:32:27.901] [Server thread/DEBUG] [mixin/]: Mixing swimming.FallLocationMixin from expandability-common.mixins.json into net.minecraft.world.damagesource.FallLocation
 [12Mar2025 21:34:13.437] [Server thread/ERROR] [placebo/]: Failed to locate any gear sets matching the following predicates: 
 [12Mar2025 21:34:13.437] [Server thread/ERROR] [placebo/]: SetPredicate[#irons_spellbooks]
+[12Mar2025 21:36:02.741] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LuxSilver lost connection: Disconnected
+[12Mar2025 21:36:02.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuxSilver left the game
+[12Mar2025 21:37:10.066] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[12Mar2025 21:37:10.084] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[12Mar2025 21:42:10.062] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[12Mar2025 21:42:10.077] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
