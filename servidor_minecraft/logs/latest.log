@@ -2621,3 +2621,9 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 [12Mar2025 21:17:09.744] [Server thread/INFO] [minecolonies/]: Finished discovering recruitment costs
 [12Mar2025 21:17:09.745] [Server thread/INFO] [minecolonies/]: Finished discovering compostables 320
 [12Mar2025 21:17:10.057] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[12Mar2025 21:32:21.721] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LuxSilver[/127.69.220.99:40083] logged in with entity id 139 at (6.5, 72.0, -2.5)
+[12Mar2025 21:32:21.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuxSilver joined the game
+[12Mar2025 21:32:22.045] [Server thread/INFO] [Jade/]: Syncing config to LuxSilver (627b3782-d24f-356a-b10f-fe70da0cb127)
+[12Mar2025 21:32:22.056] [Server thread/INFO] [structurize/]: New Server UUID 7ec0d08b-0691-4fa1-a6c7-23b16e533474
+[12Mar2025 21:34:13.437] [Server thread/ERROR] [placebo/]: Failed to locate any gear sets matching the following predicates: 
+[12Mar2025 21:34:13.437] [Server thread/ERROR] [placebo/]: SetPredicate[#irons_spellbooks]
