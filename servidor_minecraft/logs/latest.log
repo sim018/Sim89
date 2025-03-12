@@ -1,123 +1,1763 @@
-[12Mar2025 19:43:16.847] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[12Mar2025 19:43:16.851] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1021-azure
-[12Mar2025 19:43:17.869] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[12Mar2025 19:43:17.926] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Sim89/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[12Mar2025 19:43:18.200] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Sim89/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[12Mar2025 19:43:18.202] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Sim89/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[12Mar2025 19:43:18.203] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Sim89/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[12Mar2025 19:43:18.204] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Sim89/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[12Mar2025 19:43:18.471] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 3 dependencies adding them to mods collection
-[12Mar2025 19:43:20.454] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[12Mar2025 19:43:20.543] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[12Mar2025 19:43:21.310] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/MultiPlayerGameMode for invalid dist DEDICATED_SERVER
-[12Mar2025 19:43:21.311] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/MultiPlayerGameMode (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/MultiPlayerGameMode for invalid dist DEDICATED_SERVER)
-[12Mar2025 19:43:21.312] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.multiplayer.MultiPlayerGameMode was not found mixins.cofhcore.json:MultiPlayerGameModeMixin
-[12Mar2025 19:43:21.458] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/minecolonies/core/compatibility/jei/GenericRecipeCategory for invalid dist DEDICATED_SERVER
-[12Mar2025 19:43:21.459] [main/WARN] [mixin/]: Error loading class: com/minecolonies/core/compatibility/jei/GenericRecipeCategory (java.lang.RuntimeException: Attempted to load class com/minecolonies/core/compatibility/jei/GenericRecipeCategory for invalid dist DEDICATED_SERVER)
-[12Mar2025 19:43:21.459] [main/WARN] [mixin/]: @Mixin target com.minecolonies.core.compatibility.jei.GenericRecipeCategory was not found minecolonies_compatibility.mixin.common.json:minecolonies.GenericRecipeCategoryMixin
-[12Mar2025 19:43:21.474] [main/WARN] [mixin/]: Error loading class: com/legacy/blue_skies/blocks/natural/BrewberryBushBlock (java.lang.ClassNotFoundException: com.legacy.blue_skies.blocks.natural.BrewberryBushBlock)
-[12Mar2025 19:43:21.474] [main/WARN] [mixin/]: @Mixin target com.legacy.blue_skies.blocks.natural.BrewberryBushBlock was not found minecolonies_compatibility.mixin.common.json:blue_skies.BrewberryBushBlockAccessor
-[12Mar2025 19:43:21.476] [main/WARN] [mixin/]: Error loading class: com/lance5057/butchercraft/workstations/butcherblock/ButcherBlockBlockEntity (java.lang.ClassNotFoundException: com.lance5057.butchercraft.workstations.butcherblock.ButcherBlockBlockEntity)
-[12Mar2025 19:43:21.477] [main/WARN] [mixin/]: @Mixin target com.lance5057.butchercraft.workstations.butcherblock.ButcherBlockBlockEntity was not found minecolonies_compatibility.mixin.common.json:butchercraft.ButcherBlockBlockEntityAccessor
-[12Mar2025 19:43:21.479] [main/WARN] [mixin/]: Error loading class: com/lance5057/butchercraft/workstations/hook/MeatHookBlockEntity (java.lang.ClassNotFoundException: com.lance5057.butchercraft.workstations.hook.MeatHookBlockEntity)
-[12Mar2025 19:43:21.480] [main/WARN] [mixin/]: @Mixin target com.lance5057.butchercraft.workstations.hook.MeatHookBlockEntity was not found minecolonies_compatibility.mixin.common.json:butchercraft.MeatHookBlockEntityAccessor
-[12Mar2025 19:43:21.482] [main/WARN] [mixin/]: Error loading class: com/cobblemon/mod/common/block/BerryBlock (java.lang.ClassNotFoundException: com.cobblemon.mod.common.block.BerryBlock)
-[12Mar2025 19:43:21.483] [main/WARN] [mixin/]: @Mixin target com.cobblemon.mod.common.block.BerryBlock was not found minecolonies_compatibility.mixin.common.json:cobblemon.BerryBlockAccessor
-[12Mar2025 19:43:21.485] [main/WARN] [mixin/]: Error loading class: com/lothrazar/cyclic/block/apple/AppleCropBlock (java.lang.ClassNotFoundException: com.lothrazar.cyclic.block.apple.AppleCropBlock)
-[12Mar2025 19:43:21.485] [main/WARN] [mixin/]: @Mixin target com.lothrazar.cyclic.block.apple.AppleCropBlock was not found minecolonies_compatibility.mixin.common.json:cyclic.AppleCropBlockAccessor
-[12Mar2025 19:43:21.488] [main/WARN] [mixin/]: Error loading class: com/mrbysco/oreberriesreplanted/block/OreBerryBushBlock (java.lang.ClassNotFoundException: com.mrbysco.oreberriesreplanted.block.OreBerryBushBlock)
-[12Mar2025 19:43:21.489] [main/WARN] [mixin/]: @Mixin target com.mrbysco.oreberriesreplanted.block.OreBerryBushBlock was not found minecolonies_compatibility.mixin.common.json:oreberries.OreBerryBushBlockAccessor
-[12Mar2025 19:43:21.491] [main/WARN] [mixin/]: Error loading class: reliquary/items/HandgunItem (java.lang.ClassNotFoundException: reliquary.items.HandgunItem)
-[12Mar2025 19:43:21.492] [main/WARN] [mixin/]: @Mixin target reliquary.items.HandgunItem was not found minecolonies_compatibility.mixin.common.json:reliquary.HandgunItemAccessor
-[12Mar2025 19:43:21.495] [main/WARN] [mixin/]: Error loading class: reliquary/entities/shot/NeutralShotEntity (java.lang.ClassNotFoundException: reliquary.entities.shot.NeutralShotEntity)
-[12Mar2025 19:43:21.495] [main/WARN] [mixin/]: @Mixin target reliquary.entities.shot.NeutralShotEntity was not found minecolonies_compatibility.mixin.common.json:reliquary.NeutralShotEntityMixin
-[12Mar2025 19:43:22.101] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
-[12Mar2025 19:43:28.148] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Warped Netherlands
-[12Mar2025 19:43:28.156] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Stalactite Caves
-[12Mar2025 19:43:28.157] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Space Wars
-[12Mar2025 19:43:28.158] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Shire
-[12Mar2025 19:43:28.160] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Desert Oasis
-[12Mar2025 19:43:28.160] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Pagoda
-[12Mar2025 19:43:28.160] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Minecolonies Original
-[12Mar2025 19:43:28.161] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Nordic Spruce
-[12Mar2025 19:43:28.163] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Medieval Spruce
-[12Mar2025 19:43:28.163] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Medieval Oak
-[12Mar2025 19:43:28.163] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Medieval Dark Oak
-[12Mar2025 19:43:28.163] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Medieval Birch
-[12Mar2025 19:43:28.165] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Lost Mesa City
-[12Mar2025 19:43:28.166] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Jungle Treehouse
-[12Mar2025 19:43:28.166] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Incan
-[12Mar2025 19:43:28.172] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Fortress
-[12Mar2025 19:43:28.172] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Dark Oak Treehouse
-[12Mar2025 19:43:28.173] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Colonial
-[12Mar2025 19:43:28.173] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Cavern
-[12Mar2025 19:43:28.173] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Caledonia
-[12Mar2025 19:43:28.173] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Urban Birch
-[12Mar2025 19:43:28.173] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Ancient Athens
-[12Mar2025 19:43:28.174] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Urban Savanna
-[12Mar2025 19:43:28.174] [Structurize IO Worker #0/WARN] [structurize/]: Failed loading packs from main folder path: .
-[12Mar2025 19:43:28.174] [Structurize IO Worker #0/WARN] [structurize/]: Failed loading client packs from main folder path: .
-[12Mar2025 19:43:28.174] [Structurize IO Worker #0/WARN] [structurize/]: Finished discovering Server Structure packs
-[12Mar2025 19:43:28.202] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[12Mar2025 19:43:28.203] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[12Mar2025 19:43:28.965] [modloading-worker-0/WARN] [minecolonies/]: |======================================================================================================================================|
-[12Mar2025 19:43:28.966] [modloading-worker-0/WARN] [minecolonies/]: |                                                                                                                                      |
-[12Mar2025 19:43:28.967] [modloading-worker-0/WARN] [minecolonies/]: | Minecolonies has detected an addon mod that alters Minecolonies core code recklessly: 'Tweaks/Compatibility addon for Minecolonies'. |
-[12Mar2025 19:43:28.968] [modloading-worker-0/WARN] [minecolonies/]: |          Please report any bugs or issues you find directly to the authors of this addon, as the Official Minecolonies Team          |
-[12Mar2025 19:43:28.968] [modloading-worker-0/WARN] [minecolonies/]: |               will not be able to provide you any support with potential issues that will arise when using this addon.               |
-[12Mar2025 19:43:28.970] [modloading-worker-0/WARN] [minecolonies/]: |                                                                                                                                      |
-[12Mar2025 19:43:28.970] [modloading-worker-0/WARN] [minecolonies/]: |======================================================================================================================================|
-[12Mar2025 19:43:30.558] [main/INFO] [Moonlight/]: Initialized block sets in 17ms
-[12Mar2025 19:43:31.148] [main/INFO] [steve_gall.minecolonies_tweaks.core.common.MineColoniesTweaks/]: CustomToolTypeData Added: minecolonies_tweaks:crossbow
-[12Mar2025 19:43:31.149] [main/INFO] [steve_gall.minecolonies_tweaks.core.common.MineColoniesTweaks/]: CustomToolTypeData Added: minecolonies_tweaks:gun
-[12Mar2025 19:43:31.149] [main/INFO] [steve_gall.minecolonies_tweaks.core.common.MineColoniesTweaks/]: CustomToolTypeData Added: minecolonies_tweaks:knife
-[12Mar2025 19:43:31.149] [main/INFO] [steve_gall.minecolonies_tweaks.core.common.MineColoniesTweaks/]: CustomToolTypeData Added: minecolonies_tweaks:ranger_weapon
-[12Mar2025 19:43:31.149] [main/INFO] [steve_gall.minecolonies_tweaks.core.common.MineColoniesTweaks/]: CustomToolTypeData Added: minecolonies_tweaks:knight_weapon
-[12Mar2025 19:43:31.150] [main/INFO] [steve_gall.minecolonies_tweaks.core.common.MineColoniesTweaks/]: CustomToolTypeData Added: minecolonies_tweaks:butcher_tool
-[12Mar2025 19:43:31.308] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/Sim89/servidor_minecraft/config/moonlight-common.toml is not correct. Correcting
-[12Mar2025 19:43:31.309] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
-[12Mar2025 19:43:31.310] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.clear_dynamic_resources was corrected from null to its default, false. 
-[12Mar2025 19:43:31.395] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/Sim89/servidor_minecraft/config/storagenetwork.toml is not correct. Correcting
-[12Mar2025 19:43:31.396] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key storagenetwork.facades.itemsNotAllowed was corrected from [minecraft:ladder, minecraft:double_plant, minecraft:waterlily, minecraft:torch, minecraft:*_torch, minecraft:redstone, minecraft:iron_bars, minecraft:chest, minecraft:ender_chest, minecraft:sculk_vein, minecraft:string, minecraft:vine, minecraft:rail, minecraft:*_rail, minecraft:brewing_stand, minecraft:*_dripleaf, minecraft:*_pane, minecraft:*_sapling, minecraft:*_sign, minecraft:*_door, minecraft:*_banner, minecraft:*_shulker_box, cyclic:*_pipe, cyclic:*_bars, storagenetwork:*] to its default, [minecraft:ladder, minecraft:double_plant, minecraft:waterlily, minecraft:torch, minecraft:*_torch, minecraft:redstone, minecraft:iron_bars, minecraft:chest, minecraft:ender_chest, minecraft:sculk_vein, minecraft:string, minecraft:vine, minecraft:rail, minecraft:*_rail, minecraft:brewing_stand, minecraft:*_dripleaf, minecraft:*_pane, minecraft:*_sapling, minecraft:*_sign, minecraft:*_door, minecraft:*_banner, minecraft:*_shulker_box, cyclic:*_pipe, cyclic:*_bars, storagenetwork:*]. 
-[12Mar2025 19:43:31.754] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
-[12Mar2025 19:43:31.813] [main/INFO] [Moonlight/]: Initialized color sets in 26ms
-[12Mar2025 19:43:31.900] [modloading-worker-0/WARN] [minecolonies/]: Register mappings
-[12Mar2025 19:43:32.145] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.13.72 Target: null
-[12Mar2025 19:43:32.146] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [storagenetwork] Starting version check at https://raw.githubusercontent.com/Lothrazar/Storage-Network/trunk/1.19/update.json
-[12Mar2025 19:43:32.166] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [storagenetwork] Found status: BETA Current: 1.11.3 Target: null
-[12Mar2025 19:43:32.166] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[12Mar2025 19:43:32.325] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[12Mar2025 19:43:32.325] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cofh_core] Starting version check at https://raw.github.com/cofh/version/main/cofh_core/update.json
-[12Mar2025 19:43:32.398] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cofh_core] Found status: AHEAD Current: 11.0.2 Target: null
-[12Mar2025 19:43:32.402] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal] Starting version check at https://raw.github.com/cofh/version/main/thermal/update.json
-[12Mar2025 19:43:32.428] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal] Found status: AHEAD Current: 11.0.6 Target: null
-[12Mar2025 19:43:32.430] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal_innovation] Starting version check at https://raw.github.com/cofh/version/main/thermal/update_innovation.json
-[12Mar2025 19:43:32.471] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal_innovation] Found status: AHEAD Current: 11.0.1 Target: null
-[12Mar2025 19:43:32.471] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal_cultivation] Starting version check at https://raw.github.com/cofh/version/main/thermal/update_cultivation.json
-[12Mar2025 19:43:32.544] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal_cultivation] Found status: UP_TO_DATE Current: 11.0.1 Target: null
-[12Mar2025 19:43:32.544] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal_foundation] Starting version check at https://raw.github.com/cofh/version/main/thermal/update_foundation.json
-[12Mar2025 19:43:32.573] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal_foundation] Found status: AHEAD Current: 11.0.6 Target: null
-[12Mar2025 19:43:32.574] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal_locomotion] Starting version check at https://raw.github.com/cofh/version/main/thermal/update_locomotion.json
-[12Mar2025 19:43:32.595] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal_locomotion] Found status: UP_TO_DATE Current: 11.0.1 Target: null
-[12Mar2025 19:43:32.595] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal_dynamics] Starting version check at https://raw.github.com/cofh/version/main/thermal/update_dynamics.json
-[12Mar2025 19:43:32.622] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal_dynamics] Found status: UP_TO_DATE Current: 11.0.1 Target: null
-[12Mar2025 19:43:35.505] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[12Mar2025 19:43:35.771] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: moonlight:placeable_item Expected: 1432 Got: 2310
-[12Mar2025 19:43:37.195] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Sim89/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23145!/assets/.mcassetsroot' uses unexpected schema
-[12Mar2025 19:43:37.195] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Sim89/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23145!/data/.mcassetsroot' uses unexpected schema
-[12Mar2025 19:43:39.055] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:minecolonies_compatibility:blocks/citizen_grid
+[12Mar2025 20:24:35.608] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[12Mar2025 20:24:35.611] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1021-azure
+[12Mar2025 20:24:36.456] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[12Mar2025 20:24:36.507] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Sim89/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[12Mar2025 20:24:36.753] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Sim89/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[12Mar2025 20:24:36.755] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Sim89/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[12Mar2025 20:24:36.756] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Sim89/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[12Mar2025 20:24:36.758] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Sim89/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[12Mar2025 20:24:36.940] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[12Mar2025 20:24:38.761] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[12Mar2025 20:24:38.801] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[12Mar2025 20:24:39.670] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/minecolonies/core/compatibility/jei/GenericRecipeCategory for invalid dist DEDICATED_SERVER
+[12Mar2025 20:24:39.671] [main/WARN] [mixin/]: Error loading class: com/minecolonies/core/compatibility/jei/GenericRecipeCategory (java.lang.RuntimeException: Attempted to load class com/minecolonies/core/compatibility/jei/GenericRecipeCategory for invalid dist DEDICATED_SERVER)
+[12Mar2025 20:24:39.671] [main/WARN] [mixin/]: @Mixin target com.minecolonies.core.compatibility.jei.GenericRecipeCategory was not found minecolonies_compatibility.mixin.common.json:minecolonies.GenericRecipeCategoryMixin
+[12Mar2025 20:24:39.720] [main/WARN] [mixin/]: Error loading class: com/legacy/blue_skies/blocks/natural/BrewberryBushBlock (java.lang.ClassNotFoundException: com.legacy.blue_skies.blocks.natural.BrewberryBushBlock)
+[12Mar2025 20:24:39.721] [main/WARN] [mixin/]: @Mixin target com.legacy.blue_skies.blocks.natural.BrewberryBushBlock was not found minecolonies_compatibility.mixin.common.json:blue_skies.BrewberryBushBlockAccessor
+[12Mar2025 20:24:39.723] [main/WARN] [mixin/]: Error loading class: com/lance5057/butchercraft/workstations/butcherblock/ButcherBlockBlockEntity (java.lang.ClassNotFoundException: com.lance5057.butchercraft.workstations.butcherblock.ButcherBlockBlockEntity)
+[12Mar2025 20:24:39.723] [main/WARN] [mixin/]: @Mixin target com.lance5057.butchercraft.workstations.butcherblock.ButcherBlockBlockEntity was not found minecolonies_compatibility.mixin.common.json:butchercraft.ButcherBlockBlockEntityAccessor
+[12Mar2025 20:24:39.725] [main/WARN] [mixin/]: Error loading class: com/lance5057/butchercraft/workstations/hook/MeatHookBlockEntity (java.lang.ClassNotFoundException: com.lance5057.butchercraft.workstations.hook.MeatHookBlockEntity)
+[12Mar2025 20:24:39.725] [main/WARN] [mixin/]: @Mixin target com.lance5057.butchercraft.workstations.hook.MeatHookBlockEntity was not found minecolonies_compatibility.mixin.common.json:butchercraft.MeatHookBlockEntityAccessor
+[12Mar2025 20:24:39.728] [main/WARN] [mixin/]: Error loading class: com/cobblemon/mod/common/block/BerryBlock (java.lang.ClassNotFoundException: com.cobblemon.mod.common.block.BerryBlock)
+[12Mar2025 20:24:39.729] [main/WARN] [mixin/]: @Mixin target com.cobblemon.mod.common.block.BerryBlock was not found minecolonies_compatibility.mixin.common.json:cobblemon.BerryBlockAccessor
+[12Mar2025 20:24:39.730] [main/WARN] [mixin/]: Error loading class: com/lothrazar/cyclic/block/apple/AppleCropBlock (java.lang.ClassNotFoundException: com.lothrazar.cyclic.block.apple.AppleCropBlock)
+[12Mar2025 20:24:39.731] [main/WARN] [mixin/]: @Mixin target com.lothrazar.cyclic.block.apple.AppleCropBlock was not found minecolonies_compatibility.mixin.common.json:cyclic.AppleCropBlockAccessor
+[12Mar2025 20:24:39.733] [main/WARN] [mixin/]: Error loading class: com/mrbysco/oreberriesreplanted/block/OreBerryBushBlock (java.lang.ClassNotFoundException: com.mrbysco.oreberriesreplanted.block.OreBerryBushBlock)
+[12Mar2025 20:24:39.733] [main/WARN] [mixin/]: @Mixin target com.mrbysco.oreberriesreplanted.block.OreBerryBushBlock was not found minecolonies_compatibility.mixin.common.json:oreberries.OreBerryBushBlockAccessor
+[12Mar2025 20:24:39.736] [main/WARN] [mixin/]: Error loading class: reliquary/items/HandgunItem (java.lang.ClassNotFoundException: reliquary.items.HandgunItem)
+[12Mar2025 20:24:39.737] [main/WARN] [mixin/]: @Mixin target reliquary.items.HandgunItem was not found minecolonies_compatibility.mixin.common.json:reliquary.HandgunItemAccessor
+[12Mar2025 20:24:39.740] [main/WARN] [mixin/]: Error loading class: reliquary/entities/shot/NeutralShotEntity (java.lang.ClassNotFoundException: reliquary.entities.shot.NeutralShotEntity)
+[12Mar2025 20:24:39.740] [main/WARN] [mixin/]: @Mixin target reliquary.entities.shot.NeutralShotEntity was not found minecolonies_compatibility.mixin.common.json:reliquary.NeutralShotEntityMixin
+[12Mar2025 20:24:39.746] [main/WARN] [mixin/]: Error loading class: cofh/lib/common/block/CropBlockCoFH (java.lang.ClassNotFoundException: cofh.lib.common.block.CropBlockCoFH)
+[12Mar2025 20:24:39.747] [main/WARN] [mixin/]: @Mixin target cofh.lib.common.block.CropBlockCoFH was not found minecolonies_compatibility.mixin.common.json:thermal.CropBlockCoFHAccessor
+[12Mar2025 20:24:40.240] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[12Mar2025 20:24:45.540] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Warped Netherlands
+[12Mar2025 20:24:45.543] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Stalactite Caves
+[12Mar2025 20:24:45.547] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Space Wars
+[12Mar2025 20:24:45.548] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Shire
+[12Mar2025 20:24:45.552] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Desert Oasis
+[12Mar2025 20:24:45.553] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Pagoda
+[12Mar2025 20:24:45.554] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Minecolonies Original
+[12Mar2025 20:24:45.554] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Nordic Spruce
+[12Mar2025 20:24:45.554] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Medieval Spruce
+[12Mar2025 20:24:45.556] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Medieval Oak
+[12Mar2025 20:24:45.557] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Medieval Dark Oak
+[12Mar2025 20:24:45.557] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Medieval Birch
+[12Mar2025 20:24:45.558] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Lost Mesa City
+[12Mar2025 20:24:45.559] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Jungle Treehouse
+[12Mar2025 20:24:45.559] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Incan
+[12Mar2025 20:24:45.562] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Fortress
+[12Mar2025 20:24:45.562] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Dark Oak Treehouse
+[12Mar2025 20:24:45.562] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Colonial
+[12Mar2025 20:24:45.562] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Cavern
+[12Mar2025 20:24:45.563] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Caledonia
+[12Mar2025 20:24:45.563] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Urban Birch
+[12Mar2025 20:24:45.563] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Ancient Athens
+[12Mar2025 20:24:45.563] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Urban Savanna
+[12Mar2025 20:24:45.564] [Structurize IO Worker #0/WARN] [structurize/]: Failed loading packs from main folder path: .
+[12Mar2025 20:24:45.564] [Structurize IO Worker #0/WARN] [structurize/]: Failed loading client packs from main folder path: .
+[12Mar2025 20:24:45.564] [Structurize IO Worker #0/WARN] [structurize/]: Finished discovering Server Structure packs
+[12Mar2025 20:24:45.582] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[12Mar2025 20:24:45.583] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[12Mar2025 20:24:46.143] [modloading-worker-0/WARN] [minecolonies/]: |======================================================================================================================================|
+[12Mar2025 20:24:46.144] [modloading-worker-0/WARN] [minecolonies/]: |                                                                                                                                      |
+[12Mar2025 20:24:46.144] [modloading-worker-0/WARN] [minecolonies/]: | Minecolonies has detected an addon mod that alters Minecolonies core code recklessly: 'Tweaks/Compatibility addon for Minecolonies'. |
+[12Mar2025 20:24:46.144] [modloading-worker-0/WARN] [minecolonies/]: |          Please report any bugs or issues you find directly to the authors of this addon, as the Official Minecolonies Team          |
+[12Mar2025 20:24:46.144] [modloading-worker-0/WARN] [minecolonies/]: |               will not be able to provide you any support with potential issues that will arise when using this addon.               |
+[12Mar2025 20:24:46.144] [modloading-worker-0/WARN] [minecolonies/]: |                                                                                                                                      |
+[12Mar2025 20:24:46.144] [modloading-worker-0/WARN] [minecolonies/]: |======================================================================================================================================|
+[12Mar2025 20:24:47.617] [main/INFO] [Moonlight/]: Initialized block sets in 10ms
+[12Mar2025 20:24:48.009] [main/INFO] [steve_gall.minecolonies_tweaks.core.common.MineColoniesTweaks/]: CustomToolTypeData Added: minecolonies_tweaks:crossbow
+[12Mar2025 20:24:48.010] [main/INFO] [steve_gall.minecolonies_tweaks.core.common.MineColoniesTweaks/]: CustomToolTypeData Added: minecolonies_tweaks:gun
+[12Mar2025 20:24:48.010] [main/INFO] [steve_gall.minecolonies_tweaks.core.common.MineColoniesTweaks/]: CustomToolTypeData Added: minecolonies_tweaks:knife
+[12Mar2025 20:24:48.010] [main/INFO] [steve_gall.minecolonies_tweaks.core.common.MineColoniesTweaks/]: CustomToolTypeData Added: minecolonies_tweaks:ranger_weapon
+[12Mar2025 20:24:48.011] [main/INFO] [steve_gall.minecolonies_tweaks.core.common.MineColoniesTweaks/]: CustomToolTypeData Added: minecolonies_tweaks:knight_weapon
+[12Mar2025 20:24:48.011] [main/INFO] [steve_gall.minecolonies_tweaks.core.common.MineColoniesTweaks/]: CustomToolTypeData Added: minecolonies_tweaks:butcher_tool
+[12Mar2025 20:24:48.257] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/Sim89/servidor_minecraft/config/storagenetwork.toml is not correct. Correcting
+[12Mar2025 20:24:48.264] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key storagenetwork.facades.itemsNotAllowed was corrected from [minecraft:ladder, minecraft:double_plant, minecraft:waterlily, minecraft:torch, minecraft:*_torch, minecraft:redstone, minecraft:iron_bars, minecraft:chest, minecraft:ender_chest, minecraft:sculk_vein, minecraft:string, minecraft:vine, minecraft:rail, minecraft:*_rail, minecraft:brewing_stand, minecraft:*_dripleaf, minecraft:*_pane, minecraft:*_sapling, minecraft:*_sign, minecraft:*_door, minecraft:*_banner, minecraft:*_shulker_box, cyclic:*_pipe, cyclic:*_bars, storagenetwork:*] to its default, [minecraft:ladder, minecraft:double_plant, minecraft:waterlily, minecraft:torch, minecraft:*_torch, minecraft:redstone, minecraft:iron_bars, minecraft:chest, minecraft:ender_chest, minecraft:sculk_vein, minecraft:string, minecraft:vine, minecraft:rail, minecraft:*_rail, minecraft:brewing_stand, minecraft:*_dripleaf, minecraft:*_pane, minecraft:*_sapling, minecraft:*_sign, minecraft:*_door, minecraft:*_banner, minecraft:*_shulker_box, cyclic:*_pipe, cyclic:*_bars, storagenetwork:*]. 
+[12Mar2025 20:24:48.648] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [storagenetwork] Starting version check at https://raw.githubusercontent.com/Lothrazar/Storage-Network/trunk/1.19/update.json
+[12Mar2025 20:24:48.785] [main/INFO] [Moonlight/]: Initialized color sets in 28ms
+[12Mar2025 20:24:48.877] [modloading-worker-0/WARN] [minecolonies/]: Register mappings
+[12Mar2025 20:24:48.977] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [storagenetwork] Found status: BETA Current: 1.11.3 Target: null
+[12Mar2025 20:24:48.978] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
+[12Mar2025 20:24:48.988] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.13.72 Target: null
+[12Mar2025 20:24:48.989] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[12Mar2025 20:24:49.231] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[12Mar2025 20:24:52.519] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12Mar2025 20:24:52.645] [main/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
+cofh_core (version 11.0.2 -> MISSING)
+thermal (version 11.0.6 -> MISSING)
+thermal_cultivation (version 11.0.1 -> MISSING)
+thermal_dynamics (version 11.0.1 -> MISSING)
+thermal_foundation (version 11.0.6 -> MISSING)
+thermal_innovation (version 11.0.1 -> MISSING)
+thermal_locomotion (version 11.0.1 -> MISSING)
+Things may not work well.
+[12Mar2025 20:24:52.817] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:block
+	cofh_core:ender_air: 1261
+	cofh_core:glossed_magma: 1258
+	cofh_core:glow_air: 1260
+	cofh_core:lightning_air: 1262
+	cofh_core:signal_air: 1259
+	thermal:amaranth: 1398
+	thermal:amaranth_block: 1430
+	thermal:apatite_block: 1277
+	thermal:apatite_ore: 1264
+	thermal:apple_block: 1270
+	thermal:barley: 1400
+	thermal:barley_block: 1431
+	thermal:beetroot_block: 1275
+	thermal:bell_pepper: 1408
+	thermal:bell_pepper_block: 1438
+	thermal:bitumen_block: 1289
+	thermal:black_rockwool: 1364
+	thermal:blue_rockwool: 1360
+	thermal:bronze_block: 1314
+	thermal:brown_rockwool: 1361
+	thermal:carrot_block: 1272
+	thermal:carrot_cake: 1426
+	thermal:charcoal_block: 1263
+	thermal:charge_bench: 1441
+	thermal:cheese_wheel: 1424
+	thermal:chiseled_rich_slag: 1370
+	thermal:chiseled_slag: 1366
+	thermal:chocolate_cake: 1427
+	thermal:cinnabar_block: 1279
+	thermal:cinnabar_ore: 1267
+	thermal:coal_coke_block: 1287
+	thermal:coffee: 1414
+	thermal:coffee_block: 1449
+	thermal:constantan_block: 1317
+	thermal:corn: 1401
+	thermal:corn_block: 1432
+	thermal:cracked_rich_slag_bricks: 1372
+	thermal:cracked_slag_bricks: 1368
+	thermal:crossover_rail: 1373
+	thermal:crude_oil_fluid: 1455
+	thermal:cured_rubber_block: 1304
+	thermal:cyan_rockwool: 1358
+	thermal:deepslate_apatite_ore: 1265
+	thermal:deepslate_cinnabar_ore: 1269
+	thermal:deepslate_lead_ore: 1286
+	thermal:deepslate_nickel_ore: 1292
+	thermal:deepslate_niter_ore: 1274
+	thermal:deepslate_ruby_ore: 1294
+	thermal:deepslate_sapphire_ore: 1296
+	thermal:deepslate_silver_ore: 1290
+	thermal:deepslate_sulfur_ore: 1278
+	thermal:deepslate_tin_ore: 1283
+	thermal:device_collector: 1395
+	thermal:device_composter: 1387
+	thermal:device_fisher: 1386
+	thermal:device_hive_extractor: 1384
+	thermal:device_nullifier: 1397
+	thermal:device_potion_diffuser: 1399
+	thermal:device_rock_gen: 1390
+	thermal:device_soil_infuser: 1388
+	thermal:device_tree_extractor: 1385
+	thermal:device_water_gen: 1389
+	thermal:device_xp_condenser: 1396
+	thermal:earth_tnt: 1463
+	thermal:eggplant: 1409
+	thermal:eggplant_block: 1439
+	thermal:electrum_block: 1315
+	thermal:ender_fluid: 1454
+	thermal:ender_tnt: 1456
+	thermal:enderium_block: 1338
+	thermal:enderium_glass: 1348
+	thermal:energy_cell: 1442
+	thermal:energy_cell_frame: 1343
+	thermal:energy_duct: 1391
+	thermal:fire_tnt: 1460
+	thermal:flax: 1402
+	thermal:flax_block: 1433
+	thermal:fluid_cell: 1444
+	thermal:fluid_cell_frame: 1344
+	thermal:fluid_duct: 1392
+	thermal:fluid_duct_windowed: 1393
+	thermal:frost_melon: 1421
+	thermal:frost_melon_stem: 1422
+	thermal:frost_melon_stem_attached: 1423
+	thermal:glowstone_mushroom: 1417
+	thermal:glowstone_tnt: 1457
+	thermal:gray_rockwool: 1356
+	thermal:green_bean: 1410
+	thermal:green_bean_block: 1440
+	thermal:green_rockwool: 1362
+	thermal:gunpowder_block: 1266
+	thermal:gunpowder_mushroom: 1418
+	thermal:hops_block: 1443
+	thermal:ice_tnt: 1461
+	thermal:invar_block: 1316
+	thermal:item_buffer: 1394
+	thermal:lead_block: 1311
+	thermal:lead_ore: 1285
+	thermal:light_blue_rockwool: 1352
+	thermal:light_gray_rockwool: 1357
+	thermal:lightning_tnt: 1462
+	thermal:lime_rockwool: 1354
+	thermal:lumium_activator_rail: 1382
+	thermal:lumium_block: 1322
+	thermal:lumium_crossover_rail: 1380
+	thermal:lumium_detector_rail: 1383
+	thermal:lumium_glass: 1347
+	thermal:lumium_powered_rail: 1381
+	thermal:lumium_rail: 1379
+	thermal:machine_frame: 1340
+	thermal:magenta_rockwool: 1351
+	thermal:nickel_block: 1313
+	thermal:nickel_ore: 1291
+	thermal:niter_block: 1280
+	thermal:niter_ore: 1271
+	thermal:nuke_tnt: 1465
+	thermal:obsidian_glass: 1345
+	thermal:oil_red_sand: 1298
+	thermal:oil_sand: 1297
+	thermal:onion: 1403
+	thermal:onion_block: 1434
+	thermal:orange_rockwool: 1350
+	thermal:peanut: 1411
+	thermal:peanut_block: 1448
+	thermal:phyto_tnt: 1464
+	thermal:phytosoil: 1451
+	thermal:phytosoil_tilled: 1452
+	thermal:pink_rockwool: 1355
+	thermal:polished_rich_slag: 1369
+	thermal:polished_slag: 1365
+	thermal:potato_block: 1273
+	thermal:potion_cake: 1428
+	thermal:potted_rubberwood_sapling: 1327
+	thermal:prismarine_activator_rail: 1377
+	thermal:prismarine_crossover_rail: 1375
+	thermal:prismarine_detector_rail: 1378
+	thermal:prismarine_powered_rail: 1376
+	thermal:prismarine_rail: 1374
+	thermal:purple_rockwool: 1359
+	thermal:radish: 1404
+	thermal:radish_block: 1435
+	thermal:raw_lead_block: 1302
+	thermal:raw_nickel_block: 1307
+	thermal:raw_silver_block: 1305
+	thermal:raw_tin_block: 1300
+	thermal:red_rockwool: 1363
+	thermal:redstone_fluid: 1453
+	thermal:redstone_mushroom: 1419
+	thermal:redstone_tnt: 1458
+	thermal:rice: 1405
+	thermal:rice_block: 1447
+	thermal:rich_slag_block: 1308
+	thermal:rich_slag_bricks: 1371
+	thermal:rosin_block: 1301
+	thermal:rubber_block: 1303
+	thermal:rubberwood_button: 1333
+	thermal:rubberwood_door: 1331
+	thermal:rubberwood_fence: 1335
+	thermal:rubberwood_fence_gate: 1336
+	thermal:rubberwood_hanging_sign: 1341
+	thermal:rubberwood_leaves: 1326
+	thermal:rubberwood_log: 1320
+	thermal:rubberwood_planks: 1328
+	thermal:rubberwood_pressure_plate: 1334
+	thermal:rubberwood_sapling: 1325
+	thermal:rubberwood_sign: 1337
+	thermal:rubberwood_slab: 1329
+	thermal:rubberwood_stairs: 1330
+	thermal:rubberwood_trapdoor: 1332
+	thermal:rubberwood_wall_hanging_sign: 1342
+	thermal:rubberwood_wall_sign: 1339
+	thermal:rubberwood_wood: 1323
+	thermal:ruby_block: 1318
+	thermal:ruby_ore: 1293
+	thermal:sadiroot: 1406
+	thermal:sadiroot_block: 1436
+	thermal:sapphire_block: 1319
+	thermal:sapphire_ore: 1295
+	thermal:sawdust_block: 1284
+	thermal:signalum_block: 1310
+	thermal:signalum_glass: 1346
+	thermal:silver_block: 1312
+	thermal:silver_ore: 1288
+	thermal:slag_block: 1306
+	thermal:slag_bricks: 1367
+	thermal:slime_mushroom: 1420
+	thermal:slime_tnt: 1459
+	thermal:spice_cake: 1429
+	thermal:spinach: 1407
+	thermal:spinach_block: 1437
+	thermal:strawberry: 1412
+	thermal:strawberry_block: 1445
+	thermal:stripped_rubberwood_log: 1321
+	thermal:stripped_rubberwood_wood: 1324
+	thermal:stuffed_pumpkin: 1425
+	thermal:sugar_cane_block: 1268
+	thermal:sulfur_block: 1282
+	thermal:sulfur_ore: 1276
+	thermal:tar_block: 1299
+	thermal:tea: 1415
+	thermal:tea_block: 1450
+	thermal:tin_block: 1309
+	thermal:tin_ore: 1281
+	thermal:tinker_bench: 1416
+	thermal:tomato: 1413
+	thermal:tomato_block: 1446
+	thermal:white_rockwool: 1349
+	thermal:yellow_rockwool: 1353
+
+[12Mar2025 20:24:52.821] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:enchantment
+	cofh_core:holding: 40
+
+[12Mar2025 20:24:52.822] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:entity_type
+	cofh_core:electric_field: 126
+	cofh_core:frost_field: 127
+	cofh_core:knife: 125
+	thermal:basalz: 143
+	thermal:basalz_projectile: 146
+	thermal:blitz: 145
+	thermal:blitz_projectile: 148
+	thermal:blizz: 144
+	thermal:blizz_projectile: 147
+	thermal:earth_grenade: 158
+	thermal:earth_tnt: 168
+	thermal:earth_tnt_minecart: 140
+	thermal:ender_grenade: 151
+	thermal:ender_tnt: 161
+	thermal:ender_tnt_minecart: 133
+	thermal:energy_minecart: 131
+	thermal:explosive_grenade: 150
+	thermal:fire_grenade: 155
+	thermal:fire_tnt: 165
+	thermal:fire_tnt_minecart: 137
+	thermal:florb: 149
+	thermal:fluid_minecart: 132
+	thermal:glowstone_grenade: 152
+	thermal:glowstone_tnt: 162
+	thermal:glowstone_tnt_minecart: 134
+	thermal:ice_grenade: 156
+	thermal:ice_tnt: 166
+	thermal:ice_tnt_minecart: 138
+	thermal:lightning_grenade: 157
+	thermal:lightning_tnt: 167
+	thermal:lightning_tnt_minecart: 139
+	thermal:nuke_grenade: 160
+	thermal:nuke_tnt: 170
+	thermal:nuke_tnt_minecart: 142
+	thermal:phyto_grenade: 159
+	thermal:phyto_tnt: 169
+	thermal:phyto_tnt_minecart: 141
+	thermal:redstone_grenade: 153
+	thermal:redstone_tnt: 163
+	thermal:redstone_tnt_minecart: 135
+	thermal:rubberwood_boat: 128
+	thermal:rubberwood_chest_boat: 129
+	thermal:slime_grenade: 154
+	thermal:slime_tnt: 164
+	thermal:slime_tnt_minecart: 136
+	thermal:underwater_minecart: 130
+
+[12Mar2025 20:24:52.823] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:fluid
+	cofh_core:experience: 7
+	cofh_core:experience_flowing: 8
+	cofh_core:honey: 9
+	cofh_core:honey_flowing: 10
+	cofh_core:potion: 11
+	cofh_core:potion_flowing: 12
+	minecraft:flowing_milk: 6
+	minecraft:milk: 5
+	thermal:creosote: 29
+	thermal:creosote_flowing: 30
+	thermal:crude_oil: 31
+	thermal:crude_oil_flowing: 32
+	thermal:ender: 17
+	thermal:ender_flowing: 18
+	thermal:glowstone: 15
+	thermal:glowstone_flowing: 16
+	thermal:heavy_oil: 33
+	thermal:heavy_oil_flowing: 34
+	thermal:latex: 27
+	thermal:latex_flowing: 28
+	thermal:light_oil: 35
+	thermal:light_oil_flowing: 36
+	thermal:redstone: 13
+	thermal:redstone_flowing: 14
+	thermal:refined_fuel: 37
+	thermal:refined_fuel_flowing: 38
+	thermal:resin: 23
+	thermal:resin_flowing: 24
+	thermal:sap: 19
+	thermal:sap_flowing: 20
+	thermal:syrup: 21
+	thermal:syrup_flowing: 22
+	thermal:tree_oil: 25
+	thermal:tree_oil_flowing: 26
+
+[12Mar2025 20:24:52.831] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:item
+	thermal:amaranth: 1840
+	thermal:amaranth_block: 1817
+	thermal:amaranth_seeds: 1841
+	thermal:apatite: 1898
+	thermal:apatite_block: 1606
+	thermal:apatite_dust: 1899
+	thermal:apatite_ore: 1593
+	thermal:apple_block: 1599
+	thermal:aquachow: 2017
+	thermal:area_radius_augment: 2000
+	thermal:barley: 1842
+	thermal:barley_block: 1818
+	thermal:barley_seeds: 1843
+	thermal:basalz_powder: 1917
+	thermal:basalz_rod: 1916
+	thermal:basalz_spawn_egg: 2031
+	thermal:beekeeper_boots: 2022
+	thermal:beekeeper_chestplate: 2020
+	thermal:beekeeper_fabric: 1922
+	thermal:beekeeper_helmet: 2019
+	thermal:beekeeper_leggings: 2021
+	thermal:beetroot_block: 1604
+	thermal:bell_pepper: 1858
+	thermal:bell_pepper_block: 1825
+	thermal:bell_pepper_seeds: 1859
+	thermal:bitumen: 1908
+	thermal:bitumen_block: 1626
+	thermal:black_rockwool: 1693
+	thermal:blitz_powder: 1919
+	thermal:blitz_rod: 1918
+	thermal:blitz_spawn_egg: 2033
+	thermal:blizz_powder: 1921
+	thermal:blizz_rod: 1920
+	thermal:blizz_spawn_egg: 2032
+	thermal:blue_rockwool: 1685
+	thermal:bronze_block: 1643
+	thermal:bronze_coin: 1730
+	thermal:bronze_dust: 1727
+	thermal:bronze_gear: 1728
+	thermal:bronze_ingot: 1725
+	thermal:bronze_nugget: 1726
+	thermal:bronze_plate: 1729
+	thermal:brown_rockwool: 1686
+	thermal:carrot_block: 1601
+	thermal:carrot_cake: 1813
+	thermal:charcoal_block: 1592
+	thermal:charge_bench: 1828
+	thermal:cheese_wedge: 1889
+	thermal:cheese_wheel: 1811
+	thermal:chiseled_rich_slag: 1710
+	thermal:chiseled_slag: 1701
+	thermal:chocolate_cake: 1814
+	thermal:cinnabar: 1900
+	thermal:cinnabar_block: 1608
+	thermal:cinnabar_dust: 1901
+	thermal:cinnabar_ore: 1596
+	thermal:coal_coke: 1907
+	thermal:coal_coke_block: 1616
+	thermal:coffee: 1870
+	thermal:coffee_block: 1836
+	thermal:coffee_seeds: 1871
+	thermal:compost: 2014
+	thermal:constantan_block: 1646
+	thermal:constantan_coin: 1748
+	thermal:constantan_dust: 1745
+	thermal:constantan_gear: 1746
+	thermal:constantan_ingot: 1743
+	thermal:constantan_nugget: 1744
+	thermal:constantan_plate: 1747
+	thermal:cooked_corn: 1887
+	thermal:cooked_eggplant: 1888
+	thermal:cooked_mushroom: 1886
+	thermal:copper_coin: 1938
+	thermal:copper_dust: 1935
+	thermal:copper_gear: 1936
+	thermal:copper_nugget: 1934
+	thermal:copper_plate: 1937
+	thermal:corn: 1844
+	thermal:corn_block: 1819
+	thermal:corn_seeds: 1845
+	thermal:cracked_rich_slag_bricks: 1712
+	thermal:cracked_slag_bricks: 1708
+	thermal:creosote_bucket: 2042
+	thermal:crossover_rail: 1766
+	thermal:crude_oil_bucket: 2043
+	thermal:cured_rubber: 1912
+	thermal:cured_rubber_block: 1633
+	thermal:cyan_rockwool: 1683
+	thermal:deep_aquachow: 2018
+	thermal:deepslate_apatite_ore: 1594
+	thermal:deepslate_cinnabar_ore: 1598
+	thermal:deepslate_lead_ore: 1615
+	thermal:deepslate_nickel_ore: 1620
+	thermal:deepslate_niter_ore: 1603
+	thermal:deepslate_ruby_ore: 1622
+	thermal:deepslate_sapphire_ore: 1624
+	thermal:deepslate_silver_ore: 1618
+	thermal:deepslate_sulfur_ore: 1607
+	thermal:deepslate_tin_ore: 1612
+	thermal:detonator: 2009
+	thermal:device_collector: 1801
+	thermal:device_composter: 1793
+	thermal:device_fisher: 1792
+	thermal:device_hive_extractor: 1780
+	thermal:device_nullifier: 1807
+	thermal:device_potion_diffuser: 1808
+	thermal:device_rock_gen: 1796
+	thermal:device_soil_infuser: 1794
+	thermal:device_tree_extractor: 1782
+	thermal:device_water_gen: 1795
+	thermal:device_xp_condenser: 1806
+	thermal:diamond_dust: 1946
+	thermal:diamond_gear: 1947
+	thermal:diving_boots: 2026
+	thermal:diving_chestplate: 2024
+	thermal:diving_fabric: 1923
+	thermal:diving_helmet: 2023
+	thermal:diving_leggings: 2025
+	thermal:drill_head: 1972
+	thermal:dynamo_fuel_augment: 1998
+	thermal:dynamo_output_augment: 1997
+	thermal:dynamo_throttle_augment: 1999
+	thermal:earth_charge: 2011
+	thermal:earth_grenade: 2055
+	thermal:earth_tnt: 2065
+	thermal:earth_tnt_minecart: 1789
+	thermal:eggplant: 1860
+	thermal:eggplant_block: 1826
+	thermal:eggplant_seeds: 1861
+	thermal:electrum_block: 1644
+	thermal:electrum_coin: 1736
+	thermal:electrum_dust: 1733
+	thermal:electrum_gear: 1734
+	thermal:electrum_ingot: 1731
+	thermal:electrum_nugget: 1732
+	thermal:electrum_plate: 1735
+	thermal:emerald_dust: 1948
+	thermal:emerald_gear: 1949
+	thermal:ender_bucket: 2036
+	thermal:ender_grenade: 2048
+	thermal:ender_pearl_dust: 1925
+	thermal:ender_tnt: 2058
+	thermal:ender_tnt_minecart: 1781
+	thermal:enderium_block: 1665
+	thermal:enderium_coin: 1969
+	thermal:enderium_dust: 1966
+	thermal:enderium_gear: 1967
+	thermal:enderium_glass: 1672
+	thermal:enderium_ingot: 1964
+	thermal:enderium_nugget: 1965
+	thermal:enderium_plate: 1968
+	thermal:energy_cell: 1829
+	thermal:energy_cell_frame: 1667
+	thermal:energy_duct: 1797
+	thermal:energy_limiter_attachment: 1802
+	thermal:energy_minecart: 1778
+	thermal:explosive_grenade: 2047
+	thermal:filter_attachment: 1803
+	thermal:fire_grenade: 2052
+	thermal:fire_tnt: 2062
+	thermal:fire_tnt_minecart: 1786
+	thermal:flax: 1846
+	thermal:flax_block: 1820
+	thermal:flax_seeds: 1847
+	thermal:florb: 2010
+	thermal:fluid_cell: 1831
+	thermal:fluid_cell_frame: 1668
+	thermal:fluid_duct: 1798
+	thermal:fluid_duct_windowed: 1799
+	thermal:fluid_filter_augment: 1988
+	thermal:fluid_minecart: 1779
+	thermal:fluid_reservoir: 1763
+	thermal:fluid_tank_augment: 1985
+	thermal:fluid_tank_creative_augment: 1986
+	thermal:flux_capacitor: 1761
+	thermal:flux_drill: 1759
+	thermal:flux_magnet: 1762
+	thermal:flux_saw: 1760
+	thermal:frost_melon: 1810
+	thermal:frost_melon_seeds: 1881
+	thermal:frost_melon_slice: 1880
+	thermal:glowstone_bucket: 2035
+	thermal:glowstone_grenade: 2049
+	thermal:glowstone_mushroom_spores: 1876
+	thermal:glowstone_tnt: 2059
+	thermal:glowstone_tnt_minecart: 1783
+	thermal:gold_coin: 1933
+	thermal:gold_dust: 1930
+	thermal:gold_gear: 1931
+	thermal:gold_plate: 1932
+	thermal:gray_rockwool: 1681
+	thermal:green_bean: 1862
+	thermal:green_bean_block: 1827
+	thermal:green_bean_pie: 1890
+	thermal:green_bean_seeds: 1863
+	thermal:green_rockwool: 1687
+	thermal:gunpowder_block: 1595
+	thermal:gunpowder_mushroom_spores: 1877
+	thermal:hazmat_boots: 2030
+	thermal:hazmat_chestplate: 2028
+	thermal:hazmat_fabric: 1924
+	thermal:hazmat_helmet: 2027
+	thermal:hazmat_leggings: 2029
+	thermal:hearty_stew: 1895
+	thermal:heavy_oil_bucket: 2044
+	thermal:hops: 1872
+	thermal:hops_block: 1830
+	thermal:hops_seeds: 1873
+	thermal:ice_charge: 2012
+	thermal:ice_grenade: 2053
+	thermal:ice_tnt: 2063
+	thermal:ice_tnt_minecart: 1787
+	thermal:invar_block: 1645
+	thermal:invar_coin: 1742
+	thermal:invar_dust: 1739
+	thermal:invar_gear: 1740
+	thermal:invar_ingot: 1737
+	thermal:invar_nugget: 1738
+	thermal:invar_plate: 1741
+	thermal:iron_coin: 1929
+	thermal:iron_dust: 1926
+	thermal:iron_gear: 1927
+	thermal:iron_plate: 1928
+	thermal:item_buffer: 1800
+	thermal:item_filter_augment: 1987
+	thermal:jar: 1882
+	thermal:jelly: 1884
+	thermal:junk_net: 2016
+	thermal:lapis_dust: 1944
+	thermal:lapis_gear: 1945
+	thermal:laser_diode: 1974
+	thermal:latex_bucket: 2041
+	thermal:lead_block: 1640
+	thermal:lead_coin: 1704
+	thermal:lead_dust: 1700
+	thermal:lead_gear: 1702
+	thermal:lead_ingot: 1698
+	thermal:lead_nugget: 1699
+	thermal:lead_ore: 1614
+	thermal:lead_plate: 1703
+	thermal:light_blue_rockwool: 1676
+	thermal:light_gray_rockwool: 1682
+	thermal:light_oil_bucket: 2045
+	thermal:lightning_charge: 2013
+	thermal:lightning_grenade: 2054
+	thermal:lightning_tnt: 2064
+	thermal:lightning_tnt_minecart: 1788
+	thermal:lime_rockwool: 1679
+	thermal:lock: 2007
+	thermal:lumium_activator_rail: 1775
+	thermal:lumium_block: 1651
+	thermal:lumium_coin: 1963
+	thermal:lumium_crossover_rail: 1773
+	thermal:lumium_detector_rail: 1776
+	thermal:lumium_dust: 1960
+	thermal:lumium_gear: 1961
+	thermal:lumium_glass: 1671
+	thermal:lumium_ingot: 1958
+	thermal:lumium_nugget: 1959
+	thermal:lumium_plate: 1962
+	thermal:lumium_powered_rail: 1774
+	thermal:lumium_rail: 1772
+	thermal:machine_catalyst_augment: 1993
+	thermal:machine_catalyst_creative_augment: 1994
+	thermal:machine_cycle_augment: 1995
+	thermal:machine_efficiency_augment: 1990
+	thermal:machine_efficiency_creative_augment: 1991
+	thermal:machine_frame: 1666
+	thermal:machine_null_augment: 1996
+	thermal:machine_output_augment: 1992
+	thermal:machine_speed_augment: 1989
+	thermal:magenta_rockwool: 1675
+	thermal:netherite_coin: 1943
+	thermal:netherite_dust: 1940
+	thermal:netherite_gear: 1941
+	thermal:netherite_nugget: 1939
+	thermal:netherite_plate: 1942
+	thermal:nickel_block: 1642
+	thermal:nickel_coin: 1724
+	thermal:nickel_dust: 1721
+	thermal:nickel_gear: 1722
+	thermal:nickel_ingot: 1719
+	thermal:nickel_nugget: 1720
+	thermal:nickel_ore: 1619
+	thermal:nickel_plate: 1723
+	thermal:niter: 1902
+	thermal:niter_block: 1609
+	thermal:niter_dust: 1903
+	thermal:niter_ore: 1600
+	thermal:nuke_grenade: 2057
+	thermal:nuke_tnt: 2067
+	thermal:nuke_tnt_minecart: 1791
+	thermal:obsidian_glass: 1669
+	thermal:oil_red_sand: 1627
+	thermal:oil_sand: 1625
+	thermal:onion: 1848
+	thermal:onion_block: 1821
+	thermal:onion_seeds: 1849
+	thermal:orange_rockwool: 1674
+	thermal:pbj_sandwich: 1891
+	thermal:peanut: 1864
+	thermal:peanut_block: 1835
+	thermal:peanut_butter: 1883
+	thermal:peanut_seeds: 1865
+	thermal:phyto_grenade: 2056
+	thermal:phyto_tnt: 2066
+	thermal:phyto_tnt_minecart: 1790
+	thermal:phytogro: 2015
+	thermal:phytosoil: 1838
+	thermal:phytosoil_tilled: 1839
+	thermal:pink_rockwool: 1680
+	thermal:polished_rich_slag: 1709
+	thermal:polished_slag: 1695
+	thermal:potato_block: 1602
+	thermal:potion_amplifier_augment: 2001
+	thermal:potion_cake: 1815
+	thermal:potion_duration_augment: 2002
+	thermal:potion_infuser: 1764
+	thermal:potion_quiver: 1765
+	thermal:prismarine_activator_rail: 1770
+	thermal:prismarine_crossover_rail: 1768
+	thermal:prismarine_detector_rail: 1771
+	thermal:prismarine_powered_rail: 1769
+	thermal:prismarine_rail: 1767
+	thermal:purple_rockwool: 1684
+	thermal:quartz_dust: 1950
+	thermal:quartz_gear: 1951
+	thermal:radish: 1850
+	thermal:radish_block: 1822
+	thermal:radish_seeds: 1851
+	thermal:raw_lead: 1697
+	thermal:raw_lead_block: 1631
+	thermal:raw_nickel: 1718
+	thermal:raw_nickel_block: 1636
+	thermal:raw_silver: 1705
+	thermal:raw_silver_block: 1634
+	thermal:raw_tin: 1677
+	thermal:raw_tin_block: 1629
+	thermal:red_rockwool: 1691
+	thermal:redprint: 2004
+	thermal:redstone_bucket: 2034
+	thermal:redstone_grenade: 2050
+	thermal:redstone_mushroom_spores: 1878
+	thermal:redstone_servo: 1970
+	thermal:redstone_tnt: 2060
+	thermal:redstone_tnt_minecart: 1784
+	thermal:refined_fuel_bucket: 2046
+	thermal:resin_bucket: 2039
+	thermal:rf_coil: 1971
+	thermal:rf_coil_augment: 1981
+	thermal:rf_coil_creative_augment: 1984
+	thermal:rf_coil_storage_augment: 1982
+	thermal:rf_coil_xfer_augment: 1983
+	thermal:rf_potato: 2005
+	thermal:rice: 1852
+	thermal:rice_block: 1834
+	thermal:rice_seeds: 1853
+	thermal:rich_slag: 1914
+	thermal:rich_slag_block: 1637
+	thermal:rich_slag_bricks: 1711
+	thermal:rosin: 1910
+	thermal:rosin_block: 1630
+	thermal:rs_control_augment: 1978
+	thermal:rubber: 1911
+	thermal:rubber_block: 1632
+	thermal:rubberwood_boat: 1755
+	thermal:rubberwood_button: 1661
+	thermal:rubberwood_chest_boat: 1756
+	thermal:rubberwood_door: 1659
+	thermal:rubberwood_fence: 1663
+	thermal:rubberwood_fence_gate: 1664
+	thermal:rubberwood_hanging_sign: 1758
+	thermal:rubberwood_leaves: 1655
+	thermal:rubberwood_log: 1649
+	thermal:rubberwood_planks: 1656
+	thermal:rubberwood_pressure_plate: 1662
+	thermal:rubberwood_sapling: 1654
+	thermal:rubberwood_sign: 1757
+	thermal:rubberwood_slab: 1657
+	thermal:rubberwood_stairs: 1658
+	thermal:rubberwood_trapdoor: 1660
+	thermal:rubberwood_wood: 1652
+	thermal:ruby: 1749
+	thermal:ruby_block: 1647
+	thermal:ruby_dust: 1750
+	thermal:ruby_gear: 1751
+	thermal:ruby_ore: 1621
+	thermal:sadiroot: 1854
+	thermal:sadiroot_block: 1823
+	thermal:sadiroot_seeds: 1855
+	thermal:sap_bucket: 2037
+	thermal:sapphire: 1752
+	thermal:sapphire_block: 1648
+	thermal:sapphire_dust: 1753
+	thermal:sapphire_gear: 1754
+	thermal:sapphire_ore: 1623
+	thermal:satchel: 2008
+	thermal:saw_blade: 1973
+	thermal:sawdust: 1906
+	thermal:sawdust_block: 1613
+	thermal:servo_attachment: 1804
+	thermal:side_config_augment: 1979
+	thermal:signalum_block: 1639
+	thermal:signalum_coin: 1957
+	thermal:signalum_dust: 1954
+	thermal:signalum_gear: 1955
+	thermal:signalum_glass: 1670
+	thermal:signalum_ingot: 1952
+	thermal:signalum_nugget: 1953
+	thermal:signalum_plate: 1956
+	thermal:silver_block: 1641
+	thermal:silver_coin: 1717
+	thermal:silver_dust: 1714
+	thermal:silver_gear: 1715
+	thermal:silver_ingot: 1706
+	thermal:silver_nugget: 1713
+	thermal:silver_ore: 1617
+	thermal:silver_plate: 1716
+	thermal:slag: 1913
+	thermal:slag_block: 1635
+	thermal:slag_bricks: 1707
+	thermal:slime_grenade: 2051
+	thermal:slime_mushroom_spores: 1879
+	thermal:slime_tnt: 2061
+	thermal:slime_tnt_minecart: 1785
+	thermal:spice_cake: 1816
+	thermal:spinach: 1856
+	thermal:spinach_block: 1824
+	thermal:spinach_seeds: 1857
+	thermal:spring_salad: 1894
+	thermal:strawberry: 1866
+	thermal:strawberry_block: 1832
+	thermal:strawberry_seeds: 1867
+	thermal:stripped_rubberwood_log: 1650
+	thermal:stripped_rubberwood_wood: 1653
+	thermal:stuffed_pepper: 1892
+	thermal:stuffed_pumpkin: 1812
+	thermal:sugar_cane_block: 1597
+	thermal:sulfur: 1904
+	thermal:sulfur_block: 1611
+	thermal:sulfur_dust: 1905
+	thermal:sulfur_ore: 1605
+	thermal:sushi_maki: 1893
+	thermal:syrup_bottle: 1915
+	thermal:syrup_bucket: 2038
+	thermal:tar: 1909
+	thermal:tar_block: 1628
+	thermal:tea: 1874
+	thermal:tea_block: 1837
+	thermal:tea_seeds: 1875
+	thermal:tin_block: 1638
+	thermal:tin_coin: 1696
+	thermal:tin_dust: 1690
+	thermal:tin_gear: 1692
+	thermal:tin_ingot: 1688
+	thermal:tin_nugget: 1689
+	thermal:tin_ore: 1610
+	thermal:tin_plate: 1694
+	thermal:tinker_bench: 1809
+	thermal:tomato: 1868
+	thermal:tomato_block: 1833
+	thermal:tomato_sauce: 1885
+	thermal:tomato_seeds: 1869
+	thermal:tree_oil_bucket: 2040
+	thermal:turbo_servo_attachment: 1805
+	thermal:underwater_minecart: 1777
+	thermal:upgrade_augment_1: 1975
+	thermal:upgrade_augment_2: 1976
+	thermal:upgrade_augment_3: 1977
+	thermal:watering_can: 1897
+	thermal:white_rockwool: 1673
+	thermal:wrench: 2003
+	thermal:xp_crystal: 2006
+	thermal:xp_stew: 1896
+	thermal:xp_storage_augment: 1980
+	thermal:yellow_rockwool: 1678
+
+[12Mar2025 20:24:52.839] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:mob_effect
+	cofh_core:chilled: 46
+	cofh_core:clarity: 40
+	cofh_core:cold_resistance: 35
+	cofh_core:enderference: 44
+	cofh_core:explosion_resistance: 36
+	cofh_core:lightning_resistance: 37
+	cofh_core:love: 41
+	cofh_core:magic_resistance: 38
+	cofh_core:panacea: 42
+	cofh_core:shocked: 47
+	cofh_core:slimed: 45
+	cofh_core:sundered: 48
+	cofh_core:supercharge: 39
+	cofh_core:true_invisibility: 43
+	cofh_core:wrenched: 49
+
+[12Mar2025 20:24:52.840] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:sound_event
+	minecraft:item.bucket.empty_milk: 1487
+	minecraft:item.bucket.fill_milk: 1488
+	thermal:block.device_water_gen: 1489
+	thermal:entity.basalz.ambient: 1490
+	thermal:entity.basalz.death: 1492
+	thermal:entity.basalz.hurt: 1493
+	thermal:entity.basalz.roam: 1491
+	thermal:entity.basalz.shoot: 1494
+	thermal:entity.blitz.ambient: 1495
+	thermal:entity.blitz.death: 1497
+	thermal:entity.blitz.hurt: 1498
+	thermal:entity.blitz.roam: 1496
+	thermal:entity.blitz.shoot: 1499
+	thermal:entity.blizz.ambient: 1500
+	thermal:entity.blizz.death: 1502
+	thermal:entity.blizz.hurt: 1503
+	thermal:entity.blizz.roam: 1501
+	thermal:entity.blizz.shoot: 1504
+	thermal:item.armor.equip_beekeeper: 1507
+	thermal:item.armor.equip_diving: 1508
+	thermal:item.armor.equip_hazmat: 1509
+	thermal:item.magnet: 1505
+	thermal:misc.tinker: 1506
+
+[12Mar2025 20:24:52.846] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Forge Mod Loader detected missing registry entries.
+
+There are 803 missing entries in this save.
+If you continue the missing entries will get removed.
+A world backup will be automatically created in your saves directory.
+
+
+[12Mar2025 20:24:52.846] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Missing minecraft:sound_event:
+    minecraft:item.bucket.empty_milk
+    minecraft:item.bucket.fill_milk
+    thermal:block.device_water_gen
+    thermal:entity.basalz.ambient
+    thermal:entity.basalz.death
+    thermal:entity.basalz.hurt
+    thermal:entity.basalz.roam
+    thermal:entity.basalz.shoot
+    thermal:entity.blitz.ambient
+    thermal:entity.blitz.death
+    thermal:entity.blitz.hurt
+    thermal:entity.blitz.roam
+    thermal:entity.blitz.shoot
+    thermal:entity.blizz.ambient
+    thermal:entity.blizz.death
+    thermal:entity.blizz.hurt
+    thermal:entity.blizz.roam
+    thermal:entity.blizz.shoot
+    thermal:item.armor.equip_beekeeper
+    thermal:item.armor.equip_diving
+    thermal:item.armor.equip_hazmat
+    thermal:item.magnet
+    thermal:misc.tinker
+
+Missing minecraft:item:
+    thermal:amaranth
+    thermal:amaranth_block
+    thermal:amaranth_seeds
+    thermal:apatite
+    thermal:apatite_block
+    thermal:apatite_dust
+    thermal:apatite_ore
+    thermal:apple_block
+    thermal:aquachow
+    thermal:area_radius_augment
+    thermal:barley
+    thermal:barley_block
+    thermal:barley_seeds
+    thermal:basalz_powder
+    thermal:basalz_rod
+    thermal:basalz_spawn_egg
+    thermal:beekeeper_boots
+    thermal:beekeeper_chestplate
+    thermal:beekeeper_fabric
+    thermal:beekeeper_helmet
+    thermal:beekeeper_leggings
+    thermal:beetroot_block
+    thermal:bell_pepper
+    thermal:bell_pepper_block
+    thermal:bell_pepper_seeds
+    thermal:bitumen
+    thermal:bitumen_block
+    thermal:black_rockwool
+    thermal:blitz_powder
+    thermal:blitz_rod
+    thermal:blitz_spawn_egg
+    thermal:blizz_powder
+    thermal:blizz_rod
+    thermal:blizz_spawn_egg
+    thermal:blue_rockwool
+    thermal:bronze_block
+    thermal:bronze_coin
+    thermal:bronze_dust
+    thermal:bronze_gear
+    thermal:bronze_ingot
+    thermal:bronze_nugget
+    thermal:bronze_plate
+    thermal:brown_rockwool
+    thermal:carrot_block
+    thermal:carrot_cake
+    thermal:charcoal_block
+    thermal:charge_bench
+    thermal:cheese_wedge
+    thermal:cheese_wheel
+    thermal:chiseled_rich_slag
+    thermal:chiseled_slag
+    thermal:chocolate_cake
+    thermal:cinnabar
+    thermal:cinnabar_block
+    thermal:cinnabar_dust
+    thermal:cinnabar_ore
+    thermal:coal_coke
+    thermal:coal_coke_block
+    thermal:coffee
+    thermal:coffee_block
+    thermal:coffee_seeds
+    thermal:compost
+    thermal:constantan_block
+    thermal:constantan_coin
+    thermal:constantan_dust
+    thermal:constantan_gear
+    thermal:constantan_ingot
+    thermal:constantan_nugget
+    thermal:constantan_plate
+    thermal:cooked_corn
+    thermal:cooked_eggplant
+    thermal:cooked_mushroom
+    thermal:copper_coin
+    thermal:copper_dust
+    thermal:copper_gear
+    thermal:copper_nugget
+    thermal:copper_plate
+    thermal:corn
+    thermal:corn_block
+    thermal:corn_seeds
+    thermal:cracked_rich_slag_bricks
+    thermal:cracked_slag_bricks
+    thermal:creosote_bucket
+    thermal:crossover_rail
+    thermal:crude_oil_bucket
+    thermal:cured_rubber
+    thermal:cured_rubber_block
+    thermal:cyan_rockwool
+    thermal:deep_aquachow
+    thermal:deepslate_apatite_ore
+    thermal:deepslate_cinnabar_ore
+    thermal:deepslate_lead_ore
+    thermal:deepslate_nickel_ore
+    thermal:deepslate_niter_ore
+    thermal:deepslate_ruby_ore
+    thermal:deepslate_sapphire_ore
+    thermal:deepslate_silver_ore
+    thermal:deepslate_sulfur_ore
+    thermal:deepslate_tin_ore
+    thermal:detonator
+    thermal:device_collector
+    thermal:device_composter
+    thermal:device_fisher
+    thermal:device_hive_extractor
+    thermal:device_nullifier
+    thermal:device_potion_diffuser
+    thermal:device_rock_gen
+    thermal:device_soil_infuser
+    thermal:device_tree_extractor
+    thermal:device_water_gen
+    thermal:device_xp_condenser
+    thermal:diamond_dust
+    thermal:diamond_gear
+    thermal:diving_boots
+    thermal:diving_chestplate
+    thermal:diving_fabric
+    thermal:diving_helmet
+    thermal:diving_leggings
+    thermal:drill_head
+    thermal:dynamo_fuel_augment
+    thermal:dynamo_output_augment
+    thermal:dynamo_throttle_augment
+    thermal:earth_charge
+    thermal:earth_grenade
+    thermal:earth_tnt
+    thermal:earth_tnt_minecart
+    thermal:eggplant
+    thermal:eggplant_block
+    thermal:eggplant_seeds
+    thermal:electrum_block
+    thermal:electrum_coin
+    thermal:electrum_dust
+    thermal:electrum_gear
+    thermal:electrum_ingot
+    thermal:electrum_nugget
+    thermal:electrum_plate
+    thermal:emerald_dust
+    thermal:emerald_gear
+    thermal:ender_bucket
+    thermal:ender_grenade
+    thermal:ender_pearl_dust
+    thermal:ender_tnt
+    thermal:ender_tnt_minecart
+    thermal:enderium_block
+    thermal:enderium_coin
+    thermal:enderium_dust
+    thermal:enderium_gear
+    thermal:enderium_glass
+    thermal:enderium_ingot
+    thermal:enderium_nugget
+    thermal:enderium_plate
+    thermal:energy_cell
+    thermal:energy_cell_frame
+    thermal:energy_duct
+    thermal:energy_limiter_attachment
+    thermal:energy_minecart
+    thermal:explosive_grenade
+    thermal:filter_attachment
+    thermal:fire_grenade
+    thermal:fire_tnt
+    thermal:fire_tnt_minecart
+    thermal:flax
+    thermal:flax_block
+    thermal:flax_seeds
+    thermal:florb
+    thermal:fluid_cell
+    thermal:fluid_cell_frame
+    thermal:fluid_duct
+    thermal:fluid_duct_windowed
+    thermal:fluid_filter_augment
+    thermal:fluid_minecart
+    thermal:fluid_reservoir
+    thermal:fluid_tank_augment
+    thermal:fluid_tank_creative_augment
+    thermal:flux_capacitor
+    thermal:flux_drill
+    thermal:flux_magnet
+    thermal:flux_saw
+    thermal:frost_melon
+    thermal:frost_melon_seeds
+    thermal:frost_melon_slice
+    thermal:glowstone_bucket
+    thermal:glowstone_grenade
+    thermal:glowstone_mushroom_spores
+    thermal:glowstone_tnt
+    thermal:glowstone_tnt_minecart
+    thermal:gold_coin
+    thermal:gold_dust
+    thermal:gold_gear
+    thermal:gold_plate
+    thermal:gray_rockwool
+    thermal:green_bean
+    thermal:green_bean_block
+    thermal:green_bean_pie
+    thermal:green_bean_seeds
+    thermal:green_rockwool
+    thermal:gunpowder_block
+    thermal:gunpowder_mushroom_spores
+    thermal:hazmat_boots
+    thermal:hazmat_chestplate
+    thermal:hazmat_fabric
+    thermal:hazmat_helmet
+    thermal:hazmat_leggings
+    thermal:hearty_stew
+    thermal:heavy_oil_bucket
+    thermal:hops
+    thermal:hops_block
+    thermal:hops_seeds
+    thermal:ice_charge
+    thermal:ice_grenade
+    thermal:ice_tnt
+    thermal:ice_tnt_minecart
+    thermal:invar_block
+    thermal:invar_coin
+    thermal:invar_dust
+    thermal:invar_gear
+    thermal:invar_ingot
+    thermal:invar_nugget
+    thermal:invar_plate
+    thermal:iron_coin
+    thermal:iron_dust
+    thermal:iron_gear
+    thermal:iron_plate
+    thermal:item_buffer
+    thermal:item_filter_augment
+    thermal:jar
+    thermal:jelly
+    thermal:junk_net
+    thermal:lapis_dust
+    thermal:lapis_gear
+    thermal:laser_diode
+    thermal:latex_bucket
+    thermal:lead_block
+    thermal:lead_coin
+    thermal:lead_dust
+    thermal:lead_gear
+    thermal:lead_ingot
+    thermal:lead_nugget
+    thermal:lead_ore
+    thermal:lead_plate
+    thermal:light_blue_rockwool
+    thermal:light_gray_rockwool
+    thermal:light_oil_bucket
+    thermal:lightning_charge
+    thermal:lightning_grenade
+    thermal:lightning_tnt
+    thermal:lightning_tnt_minecart
+    thermal:lime_rockwool
+    thermal:lock
+    thermal:lumium_activator_rail
+    thermal:lumium_block
+    thermal:lumium_coin
+    thermal:lumium_crossover_rail
+    thermal:lumium_detector_rail
+    thermal:lumium_dust
+    thermal:lumium_gear
+    thermal:lumium_glass
+    thermal:lumium_ingot
+    thermal:lumium_nugget
+    thermal:lumium_plate
+    thermal:lumium_powered_rail
+    thermal:lumium_rail
+    thermal:machine_catalyst_augment
+    thermal:machine_catalyst_creative_augment
+    thermal:machine_cycle_augment
+    thermal:machine_efficiency_augment
+    thermal:machine_efficiency_creative_augment
+    thermal:machine_frame
+    thermal:machine_null_augment
+    thermal:machine_output_augment
+    thermal:machine_speed_augment
+    thermal:magenta_rockwool
+    thermal:netherite_coin
+    thermal:netherite_dust
+    thermal:netherite_gear
+    thermal:netherite_nugget
+    thermal:netherite_plate
+    thermal:nickel_block
+    thermal:nickel_coin
+    thermal:nickel_dust
+    thermal:nickel_gear
+    thermal:nickel_ingot
+    thermal:nickel_nugget
+    thermal:nickel_ore
+    thermal:nickel_plate
+    thermal:niter
+    thermal:niter_block
+    thermal:niter_dust
+    thermal:niter_ore
+    thermal:nuke_grenade
+    thermal:nuke_tnt
+    thermal:nuke_tnt_minecart
+    thermal:obsidian_glass
+    thermal:oil_red_sand
+    thermal:oil_sand
+    thermal:onion
+    thermal:onion_block
+    thermal:onion_seeds
+    thermal:orange_rockwool
+    thermal:pbj_sandwich
+    thermal:peanut
+    thermal:peanut_block
+    thermal:peanut_butter
+    thermal:peanut_seeds
+    thermal:phyto_grenade
+    thermal:phyto_tnt
+    thermal:phyto_tnt_minecart
+    thermal:phytogro
+    thermal:phytosoil
+    thermal:phytosoil_tilled
+    thermal:pink_rockwool
+    thermal:polished_rich_slag
+    thermal:polished_slag
+    thermal:potato_block
+    thermal:potion_amplifier_augment
+    thermal:potion_cake
+    thermal:potion_duration_augment
+    thermal:potion_infuser
+    thermal:potion_quiver
+    thermal:prismarine_activator_rail
+    thermal:prismarine_crossover_rail
+    thermal:prismarine_detector_rail
+    thermal:prismarine_powered_rail
+    thermal:prismarine_rail
+    thermal:purple_rockwool
+    thermal:quartz_dust
+    thermal:quartz_gear
+    thermal:radish
+    thermal:radish_block
+    thermal:radish_seeds
+    thermal:raw_lead
+    thermal:raw_lead_block
+    thermal:raw_nickel
+    thermal:raw_nickel_block
+    thermal:raw_silver
+    thermal:raw_silver_block
+    thermal:raw_tin
+    thermal:raw_tin_block
+    thermal:red_rockwool
+    thermal:redprint
+    thermal:redstone_bucket
+    thermal:redstone_grenade
+    thermal:redstone_mushroom_spores
+    thermal:redstone_servo
+    thermal:redstone_tnt
+    thermal:redstone_tnt_minecart
+    thermal:refined_fuel_bucket
+    thermal:resin_bucket
+    thermal:rf_coil
+    thermal:rf_coil_augment
+    thermal:rf_coil_creative_augment
+    thermal:rf_coil_storage_augment
+    thermal:rf_coil_xfer_augment
+    thermal:rf_potato
+    thermal:rice
+    thermal:rice_block
+    thermal:rice_seeds
+    thermal:rich_slag
+    thermal:rich_slag_block
+    thermal:rich_slag_bricks
+    thermal:rosin
+    thermal:rosin_block
+    thermal:rs_control_augment
+    thermal:rubber
+    thermal:rubber_block
+    thermal:rubberwood_boat
+    thermal:rubberwood_button
+    thermal:rubberwood_chest_boat
+    thermal:rubberwood_door
+    thermal:rubberwood_fence
+    thermal:rubberwood_fence_gate
+    thermal:rubberwood_hanging_sign
+    thermal:rubberwood_leaves
+    thermal:rubberwood_log
+    thermal:rubberwood_planks
+    thermal:rubberwood_pressure_plate
+    thermal:rubberwood_sapling
+    thermal:rubberwood_sign
+    thermal:rubberwood_slab
+    thermal:rubberwood_stairs
+    thermal:rubberwood_trapdoor
+    thermal:rubberwood_wood
+    thermal:ruby
+    thermal:ruby_block
+    thermal:ruby_dust
+    thermal:ruby_gear
+    thermal:ruby_ore
+    thermal:sadiroot
+    thermal:sadiroot_block
+    thermal:sadiroot_seeds
+    thermal:sap_bucket
+    thermal:sapphire
+    thermal:sapphire_block
+    thermal:sapphire_dust
+    thermal:sapphire_gear
+    thermal:sapphire_ore
+    thermal:satchel
+    thermal:saw_blade
+    thermal:sawdust
+    thermal:sawdust_block
+    thermal:servo_attachment
+    thermal:side_config_augment
+    thermal:signalum_block
+    thermal:signalum_coin
+    thermal:signalum_dust
+    thermal:signalum_gear
+    thermal:signalum_glass
+    thermal:signalum_ingot
+    thermal:signalum_nugget
+    thermal:signalum_plate
+    thermal:silver_block
+    thermal:silver_coin
+    thermal:silver_dust
+    thermal:silver_gear
+    thermal:silver_ingot
+    thermal:silver_nugget
+    thermal:silver_ore
+    thermal:silver_plate
+    thermal:slag
+    thermal:slag_block
+    thermal:slag_bricks
+    thermal:slime_grenade
+    thermal:slime_mushroom_spores
+    thermal:slime_tnt
+    thermal:slime_tnt_minecart
+    thermal:spice_cake
+    thermal:spinach
+    thermal:spinach_block
+    thermal:spinach_seeds
+    thermal:spring_salad
+    thermal:strawberry
+    thermal:strawberry_block
+    thermal:strawberry_seeds
+    thermal:stripped_rubberwood_log
+    thermal:stripped_rubberwood_wood
+    thermal:stuffed_pepper
+    thermal:stuffed_pumpkin
+    thermal:sugar_cane_block
+    thermal:sulfur
+    thermal:sulfur_block
+    thermal:sulfur_dust
+    thermal:sulfur_ore
+    thermal:sushi_maki
+    thermal:syrup_bottle
+    thermal:syrup_bucket
+    thermal:tar
+    thermal:tar_block
+    thermal:tea
+    thermal:tea_block
+    thermal:tea_seeds
+    thermal:tin_block
+    thermal:tin_coin
+    thermal:tin_dust
+    thermal:tin_gear
+    thermal:tin_ingot
+    thermal:tin_nugget
+    thermal:tin_ore
+    thermal:tin_plate
+    thermal:tinker_bench
+    thermal:tomato
+    thermal:tomato_block
+    thermal:tomato_sauce
+    thermal:tomato_seeds
+    thermal:tree_oil_bucket
+    thermal:turbo_servo_attachment
+    thermal:underwater_minecart
+    thermal:upgrade_augment_1
+    thermal:upgrade_augment_2
+    thermal:upgrade_augment_3
+    thermal:watering_can
+    thermal:white_rockwool
+    thermal:wrench
+    thermal:xp_crystal
+    thermal:xp_stew
+    thermal:xp_storage_augment
+    thermal:yellow_rockwool
+
+Missing minecraft:block:
+    cofh_core:ender_air
+    cofh_core:glossed_magma
+    cofh_core:glow_air
+    cofh_core:lightning_air
+    cofh_core:signal_air
+    thermal:amaranth
+    thermal:amaranth_block
+    thermal:apatite_block
+    thermal:apatite_ore
+    thermal:apple_block
+    thermal:barley
+    thermal:barley_block
+    thermal:beetroot_block
+    thermal:bell_pepper
+    thermal:bell_pepper_block
+    thermal:bitumen_block
+    thermal:black_rockwool
+    thermal:blue_rockwool
+    thermal:bronze_block
+    thermal:brown_rockwool
+    thermal:carrot_block
+    thermal:carrot_cake
+    thermal:charcoal_block
+    thermal:charge_bench
+    thermal:cheese_wheel
+    thermal:chiseled_rich_slag
+    thermal:chiseled_slag
+    thermal:chocolate_cake
+    thermal:cinnabar_block
+    thermal:cinnabar_ore
+    thermal:coal_coke_block
+    thermal:coffee
+    thermal:coffee_block
+    thermal:constantan_block
+    thermal:corn
+    thermal:corn_block
+    thermal:cracked_rich_slag_bricks
+    thermal:cracked_slag_bricks
+    thermal:crossover_rail
+    thermal:crude_oil_fluid
+    thermal:cured_rubber_block
+    thermal:cyan_rockwool
+    thermal:deepslate_apatite_ore
+    thermal:deepslate_cinnabar_ore
+    thermal:deepslate_lead_ore
+    thermal:deepslate_nickel_ore
+    thermal:deepslate_niter_ore
+    thermal:deepslate_ruby_ore
+    thermal:deepslate_sapphire_ore
+    thermal:deepslate_silver_ore
+    thermal:deepslate_sulfur_ore
+    thermal:deepslate_tin_ore
+    thermal:device_collector
+    thermal:device_composter
+    thermal:device_fisher
+    thermal:device_hive_extractor
+    thermal:device_nullifier
+    thermal:device_potion_diffuser
+    thermal:device_rock_gen
+    thermal:device_soil_infuser
+    thermal:device_tree_extractor
+    thermal:device_water_gen
+    thermal:device_xp_condenser
+    thermal:earth_tnt
+    thermal:eggplant
+    thermal:eggplant_block
+    thermal:electrum_block
+    thermal:ender_fluid
+    thermal:ender_tnt
+    thermal:enderium_block
+    thermal:enderium_glass
+    thermal:energy_cell
+    thermal:energy_cell_frame
+    thermal:energy_duct
+    thermal:fire_tnt
+    thermal:flax
+    thermal:flax_block
+    thermal:fluid_cell
+    thermal:fluid_cell_frame
+    thermal:fluid_duct
+    thermal:fluid_duct_windowed
+    thermal:frost_melon
+    thermal:frost_melon_stem
+    thermal:frost_melon_stem_attached
+    thermal:glowstone_mushroom
+    thermal:glowstone_tnt
+    thermal:gray_rockwool
+    thermal:green_bean
+    thermal:green_bean_block
+    thermal:green_rockwool
+    thermal:gunpowder_block
+    thermal:gunpowder_mushroom
+    thermal:hops_block
+    thermal:ice_tnt
+    thermal:invar_block
+    thermal:item_buffer
+    thermal:lead_block
+    thermal:lead_ore
+    thermal:light_blue_rockwool
+    thermal:light_gray_rockwool
+    thermal:lightning_tnt
+    thermal:lime_rockwool
+    thermal:lumium_activator_rail
+    thermal:lumium_block
+    thermal:lumium_crossover_rail
+    thermal:lumium_detector_rail
+    thermal:lumium_glass
+    thermal:lumium_powered_rail
+    thermal:lumium_rail
+    thermal:machine_frame
+    thermal:magenta_rockwool
+    thermal:nickel_block
+    thermal:nickel_ore
+    thermal:niter_block
+    thermal:niter_ore
+    thermal:nuke_tnt
+    thermal:obsidian_glass
+    thermal:oil_red_sand
+    thermal:oil_sand
+    thermal:onion
+    thermal:onion_block
+    thermal:orange_rockwool
+    thermal:peanut
+    thermal:peanut_block
+    thermal:phyto_tnt
+    thermal:phytosoil
+    thermal:phytosoil_tilled
+    thermal:pink_rockwool
+    thermal:polished_rich_slag
+    thermal:polished_slag
+    thermal:potato_block
+    thermal:potion_cake
+    thermal:potted_rubberwood_sapling
+    thermal:prismarine_activator_rail
+    thermal:prismarine_crossover_rail
+    thermal:prismarine_detector_rail
+    thermal:prismarine_powered_rail
+    thermal:prismarine_rail
+    thermal:purple_rockwool
+    thermal:radish
+    thermal:radish_block
+    thermal:raw_lead_block
+    thermal:raw_nickel_block
+    thermal:raw_silver_block
+    thermal:raw_tin_block
+    thermal:red_rockwool
+    thermal:redstone_fluid
+    thermal:redstone_mushroom
+    thermal:redstone_tnt
+    thermal:rice
+    thermal:rice_block
+    thermal:rich_slag_block
+    thermal:rich_slag_bricks
+    thermal:rosin_block
+    thermal:rubber_block
+    thermal:rubberwood_button
+    thermal:rubberwood_door
+    thermal:rubberwood_fence
+    thermal:rubberwood_fence_gate
+    thermal:rubberwood_hanging_sign
+    thermal:rubberwood_leaves
+    thermal:rubberwood_log
+    thermal:rubberwood_planks
+    thermal:rubberwood_pressure_plate
+    thermal:rubberwood_sapling
+    thermal:rubberwood_sign
+    thermal:rubberwood_slab
+    thermal:rubberwood_stairs
+    thermal:rubberwood_trapdoor
+    thermal:rubberwood_wall_hanging_sign
+    thermal:rubberwood_wall_sign
+    thermal:rubberwood_wood
+    thermal:ruby_block
+    thermal:ruby_ore
+    thermal:sadiroot
+    thermal:sadiroot_block
+    thermal:sapphire_block
+    thermal:sapphire_ore
+    thermal:sawdust_block
+    thermal:signalum_block
+    thermal:signalum_glass
+    thermal:silver_block
+    thermal:silver_ore
+    thermal:slag_block
+    thermal:slag_bricks
+    thermal:slime_mushroom
+    thermal:slime_tnt
+    thermal:spice_cake
+    thermal:spinach
+    thermal:spinach_block
+    thermal:strawberry
+    thermal:strawberry_block
+    thermal:stripped_rubberwood_log
+    thermal:stripped_rubberwood_wood
+    thermal:stuffed_pumpkin
+    thermal:sugar_cane_block
+    thermal:sulfur_block
+    thermal:sulfur_ore
+    thermal:tar_block
+    thermal:tea
+    thermal:tea_block
+    thermal:tin_block
+    thermal:tin_ore
+    thermal:tinker_bench
+    thermal:tomato
+    thermal:tomato_block
+    thermal:white_rockwool
+    thermal:yellow_rockwool
+
+Missing minecraft:mob_effect:
+    cofh_core:chilled
+    cofh_core:clarity
+    cofh_core:cold_resistance
+    cofh_core:enderference
+    cofh_core:explosion_resistance
+    cofh_core:lightning_resistance
+    cofh_core:love
+    cofh_core:magic_resistance
+    cofh_core:panacea
+    cofh_core:shocked
+    cofh_core:slimed
+    cofh_core:sundered
+    cofh_core:supercharge
+    cofh_core:true_invisibility
+    cofh_core:wrenched
+
+Missing minecraft:enchantment:
+    cofh_core:holding
+
+Missing minecraft:fluid:
+    cofh_core:experience
+    cofh_core:experience_flowing
+    cofh_core:honey
+    cofh_core:honey_flowing
+    cofh_core:potion
+    cofh_core:potion_flowing
+    minecraft:flowing_milk
+    minecraft:milk
+    thermal:creosote
+    thermal:creosote_flowing
+    thermal:crude_oil
+    thermal:crude_oil_flowing
+    thermal:ender
+    thermal:ender_flowing
+    thermal:glowstone
+    thermal:glowstone_flowing
+    thermal:heavy_oil
+    thermal:heavy_oil_flowing
+    thermal:latex
+    thermal:latex_flowing
+    thermal:light_oil
+    thermal:light_oil_flowing
+    thermal:redstone
+    thermal:redstone_flowing
+    thermal:refined_fuel
+    thermal:refined_fuel_flowing
+    thermal:resin
+    thermal:resin_flowing
+    thermal:sap
+    thermal:sap_flowing
+    thermal:syrup
+    thermal:syrup_flowing
+    thermal:tree_oil
+    thermal:tree_oil_flowing
+
+Missing minecraft:entity_type:
+    cofh_core:electric_field
+    cofh_core:frost_field
+    cofh_core:knife
+    thermal:basalz
+    thermal:basalz_projectile
+    thermal:blitz
+    thermal:blitz_projectile
+    thermal:blizz
+    thermal:blizz_projectile
+    thermal:earth_grenade
+    thermal:earth_tnt
+    thermal:earth_tnt_minecart
+    thermal:ender_grenade
+    thermal:ender_tnt
+    thermal:ender_tnt_minecart
+    thermal:energy_minecart
+    thermal:explosive_grenade
+    thermal:fire_grenade
+    thermal:fire_tnt
+    thermal:fire_tnt_minecart
+    thermal:florb
+    thermal:fluid_minecart
+    thermal:glowstone_grenade
+    thermal:glowstone_tnt
+    thermal:glowstone_tnt_minecart
+    thermal:ice_grenade
+    thermal:ice_tnt
+    thermal:ice_tnt_minecart
+    thermal:lightning_grenade
+    thermal:lightning_tnt
+    thermal:lightning_tnt_minecart
+    thermal:nuke_grenade
+    thermal:nuke_tnt
+    thermal:nuke_tnt_minecart
+    thermal:phyto_grenade
+    thermal:phyto_tnt
+    thermal:phyto_tnt_minecart
+    thermal:redstone_grenade
+    thermal:redstone_tnt
+    thermal:redstone_tnt_minecart
+    thermal:rubberwood_boat
+    thermal:rubberwood_chest_boat
+    thermal:slime_grenade
+    thermal:slime_tnt
+    thermal:slime_tnt_minecart
+    thermal:underwater_minecart
+
+
+[12Mar2025 20:24:52.849] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: There are unidentified mappings in this world - we are going to attempt to process anyway
+[12Mar2025 20:24:54.633] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Sim89/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23133!/assets/.mcassetsroot' uses unexpected schema
+[12Mar2025 20:24:54.633] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Sim89/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23133!/data/.mcassetsroot' uses unexpected schema
+[12Mar2025 20:24:54.685] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:cofh_core
+[12Mar2025 20:24:54.685] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:thermal
+[12Mar2025 20:24:54.685] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:thermal_foundation
+[12Mar2025 20:24:54.685] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:thermal_innovation
+[12Mar2025 20:24:54.685] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:thermal_locomotion
+[12Mar2025 20:24:54.685] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:thermal_dynamics
+[12Mar2025 20:24:54.685] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:thermal_cultivation
+[12Mar2025 20:24:56.603] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:minecolonies_compatibility:blocks/citizen_grid
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'minecolonies_compatibility:citizen_grid'
-	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
-	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
-	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
@@ -125,10 +1765,10 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
-	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
-	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
-	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
@@ -136,20 +1776,20 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
-	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23150!/:?]
-	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23150!/:?]
-	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
-	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23138!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23138!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
 	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
-	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
 	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
 	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
@@ -157,20 +1797,20 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[12Mar2025 19:43:39.470] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 29 recipes
-[12Mar2025 19:43:39.605] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1772 advancements
-[12Mar2025 19:43:39.614] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
-[12Mar2025 19:43:39.618] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
-[12Mar2025 19:43:39.623] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Unable to decode loot conditions
+[12Mar2025 20:24:56.791] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 11 recipes
+[12Mar2025 20:24:56.902] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1772 advancements
+[12Mar2025 20:24:56.910] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
+[12Mar2025 20:24:56.913] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[12Mar2025 20:24:56.919] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Unable to decode loot conditions
 com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternatives'
-	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:99) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:99) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraftforge.common.loot.IGlobalLootModifier.lambda$static$1(IGlobalLootModifier.java:39) ~[forge-1.20.1-47.3.7-universal.jar%23150!/:?]
+	at net.minecraftforge.common.loot.IGlobalLootModifier.lambda$static$1(IGlobalLootModifier.java:39) ~[forge-1.20.1-47.3.7-universal.jar%23138!/:?]
 	at com.mojang.serialization.Decoder$1.lambda$decode$1(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
 	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
 	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
@@ -198,15 +1838,15 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternatives'
 	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
 	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-6.0.8.jar%2377!/:?]
 	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at net.minecraftforge.common.loot.LootModifierManager.apply(LootModifierManager.java:79) ~[forge-1.20.1-47.3.7-universal.jar%23150!/:?]
-	at net.minecraftforge.common.loot.LootModifierManager.m_5787_(LootModifierManager.java:38) ~[forge-1.20.1-47.3.7-universal.jar%23150!/:?]
-	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.apply(LootModifierManager.java:79) ~[forge-1.20.1-47.3.7-universal.jar%23138!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.m_5787_(LootModifierManager.java:38) ~[forge-1.20.1-47.3.7-universal.jar%23138!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
 	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
 	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
-	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
-	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
-	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -222,17 +1862,17 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternatives'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[12Mar2025 19:43:39.627] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id nethersdelight:chopping_leather - error: Unknown type 'minecraft:alternatives'
-[12Mar2025 19:43:39.628] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Unable to decode loot conditions
+[12Mar2025 20:24:56.922] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id nethersdelight:chopping_leather - error: Unknown type 'minecraft:alternatives'
+[12Mar2025 20:24:56.923] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Unable to decode loot conditions
 com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
-	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:99) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:99) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraftforge.common.loot.IGlobalLootModifier.lambda$static$1(IGlobalLootModifier.java:39) ~[forge-1.20.1-47.3.7-universal.jar%23150!/:?]
+	at net.minecraftforge.common.loot.IGlobalLootModifier.lambda$static$1(IGlobalLootModifier.java:39) ~[forge-1.20.1-47.3.7-universal.jar%23138!/:?]
 	at com.mojang.serialization.Decoder$1.lambda$decode$1(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
 	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
 	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
@@ -260,15 +1900,15 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
 	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-6.0.8.jar%2377!/:?]
 	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at net.minecraftforge.common.loot.LootModifierManager.apply(LootModifierManager.java:79) ~[forge-1.20.1-47.3.7-universal.jar%23150!/:?]
-	at net.minecraftforge.common.loot.LootModifierManager.m_5787_(LootModifierManager.java:38) ~[forge-1.20.1-47.3.7-universal.jar%23150!/:?]
-	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.apply(LootModifierManager.java:79) ~[forge-1.20.1-47.3.7-universal.jar%23138!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.m_5787_(LootModifierManager.java:38) ~[forge-1.20.1-47.3.7-universal.jar%23138!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
 	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
 	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
-	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
-	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
-	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23145!/:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -284,51 +1924,50 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[12Mar2025 19:43:39.629] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id nethersdelight:chopping_string - error: Unknown type 'minecraft:alternative'
-[12Mar2025 19:43:39.631] [main/INFO] [minecolonies/]: Beginning load of custom recipes for colony workers
-[12Mar2025 19:43:39.642] [main/INFO] [minecolonies/]: Loaded 160 recipes for 16 crafters
-[12Mar2025 19:43:39.643] [main/INFO] [minecolonies/]: Beginning load of research for University.
-[12Mar2025 19:43:39.753] [main/INFO] [minecolonies/]: Loaded 202 recipes for 4 research branches
-[12Mar2025 19:43:39.756] [main/INFO] [minecolonies/]: Loading quests from data
-[12Mar2025 19:43:39.765] [main/INFO] [minecolonies/]: Finished loading quests from data
-[12Mar2025 19:43:39.769] [main/WARN] [minecolonies/]: Read 1544 items with their nbt keys for compatibility.
-[12Mar2025 19:43:41.263] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[12Mar2025 19:43:41.264] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[12Mar2025 19:43:41.264] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[12Mar2025 19:43:41.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[12Mar2025 19:43:41.397] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[12Mar2025 19:43:41.422] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[12Mar2025 19:43:41.505] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[12Mar2025 19:43:41.506] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[12Mar2025 19:43:41.506] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[12Mar2025 19:43:41.507] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[12Mar2025 19:43:41.598] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[12Mar2025 19:43:44.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[12Mar2025 19:43:46.039] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[12Mar2025 19:43:47.680] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Mar2025 19:43:47.682] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Mar2025 19:43:47.684] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Mar2025 19:43:47.688] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Mar2025 19:43:47.689] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Mar2025 19:43:47.689] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Mar2025 19:43:47.690] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Mar2025 19:43:48.079] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[12Mar2025 19:43:48.280] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[12Mar2025 19:43:48.576] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
-[12Mar2025 19:43:48.817] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4242 ms
-[12Mar2025 19:43:48.818] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (7.298s)! For help, type "help"
-[12Mar2025 19:43:48.855] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[12Mar2025 19:43:48.955] [Server thread/INFO] [minecolonies/]: Finished discovering Ores 39 34
-[12Mar2025 19:43:48.956] [Server thread/INFO] [minecolonies/]: Finished discovering saplings 2609
-[12Mar2025 19:43:48.956] [Server thread/INFO] [minecolonies/]: Finished discovering plantables 19
-[12Mar2025 19:43:48.956] [Server thread/INFO] [minecolonies/]: Finished discovering food 200 229
-[12Mar2025 19:43:48.957] [Server thread/INFO] [minecolonies/]: Finished discovering fuel 332
-[12Mar2025 19:43:48.957] [Server thread/INFO] [minecolonies/]: Finished discovering flowers 32
-[12Mar2025 19:43:48.957] [Server thread/INFO] [minecolonies/]: Finished discovering items 2594
-[12Mar2025 19:43:48.957] [Server thread/INFO] [minecolonies/]: Finished discovering recruitment costs
-[12Mar2025 19:43:48.961] [Server thread/INFO] [minecolonies/]: Finished discovering compostables 368
-[12Mar2025 19:44:16.116] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LuxSilver[/127.69.220.99:47719] logged in with entity id 191 at (0.5, 86.0, -2.5)
-[12Mar2025 19:44:16.260] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuxSilver joined the game
-[12Mar2025 19:44:16.672] [Server thread/INFO] [structurize/]: New Server UUID b01ca45b-90b5-4748-abf9-0afb7ff4393b
-[12Mar2025 19:45:21.839] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LuxSilver lost connection: Disconnected
-[12Mar2025 19:45:21.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuxSilver left the game
+[12Mar2025 20:24:56.925] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id nethersdelight:chopping_string - error: Unknown type 'minecraft:alternative'
+[12Mar2025 20:24:56.925] [main/INFO] [minecolonies/]: Beginning load of custom recipes for colony workers
+[12Mar2025 20:24:56.933] [main/INFO] [minecolonies/]: Loaded 160 recipes for 16 crafters
+[12Mar2025 20:24:56.933] [main/INFO] [minecolonies/]: Beginning load of research for University.
+[12Mar2025 20:24:56.992] [main/INFO] [minecolonies/]: Loaded 202 recipes for 4 research branches
+[12Mar2025 20:24:56.995] [main/INFO] [minecolonies/]: Loading quests from data
+[12Mar2025 20:24:57.002] [main/INFO] [minecolonies/]: Finished loading quests from data
+[12Mar2025 20:24:57.005] [main/WARN] [minecolonies/]: Read 1544 items with their nbt keys for compatibility.
+[12Mar2025 20:24:58.411] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[12Mar2025 20:24:58.411] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[12Mar2025 20:24:58.411] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[12Mar2025 20:24:58.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[12Mar2025 20:24:58.475] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[12Mar2025 20:24:58.522] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[12Mar2025 20:24:58.599] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12Mar2025 20:24:58.599] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[12Mar2025 20:24:58.599] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12Mar2025 20:24:58.599] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[12Mar2025 20:24:58.657] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[12Mar2025 20:25:01.466] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[12Mar2025 20:25:05.164] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Mar2025 20:25:05.165] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Mar2025 20:25:05.165] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Mar2025 20:25:05.166] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Mar2025 20:25:05.167] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Mar2025 20:25:05.167] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Mar2025 20:25:05.168] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Mar2025 20:25:05.169] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Mar2025 20:25:05.467] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[12Mar2025 20:25:05.968] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 61%
+[12Mar2025 20:25:06.191] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4725 ms
+[12Mar2025 20:25:06.192] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (7.579s)! For help, type "help"
+[12Mar2025 20:25:06.220] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[12Mar2025 20:25:06.302] [Server thread/INFO] [minecolonies/]: Finished discovering Ores 19 22
+[12Mar2025 20:25:06.302] [Server thread/INFO] [minecolonies/]: Finished discovering saplings 2153
+[12Mar2025 20:25:06.302] [Server thread/INFO] [minecolonies/]: Finished discovering plantables 19
+[12Mar2025 20:25:06.303] [Server thread/INFO] [minecolonies/]: Finished discovering food 180 203
+[12Mar2025 20:25:06.303] [Server thread/INFO] [minecolonies/]: Finished discovering fuel 303
+[12Mar2025 20:25:06.303] [Server thread/INFO] [minecolonies/]: Finished discovering flowers 32
+[12Mar2025 20:25:06.303] [Server thread/INFO] [minecolonies/]: Finished discovering items 2139
+[12Mar2025 20:25:06.304] [Server thread/INFO] [minecolonies/]: Finished discovering recruitment costs
+[12Mar2025 20:25:06.305] [Server thread/INFO] [minecolonies/]: Finished discovering compostables 312
+[12Mar2025 20:26:38.219] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LuxSilver[/127.69.220.99:51301] logged in with entity id 315 at (1.300000011920929, 82.0, -0.30000001192092896)
+[12Mar2025 20:26:38.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuxSilver joined the game
+[12Mar2025 20:26:38.514] [Server thread/INFO] [structurize/]: New Server UUID 60681bb3-ae85-4b8d-a232-db1c6409daed
+[12Mar2025 20:27:24.878] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LuxSilver lost connection: Disconnected
+[12Mar2025 20:27:24.878] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuxSilver left the game
