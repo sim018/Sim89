@@ -1971,3 +1971,5 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 [12Mar2025 20:26:38.514] [Server thread/INFO] [structurize/]: New Server UUID 60681bb3-ae85-4b8d-a232-db1c6409daed
 [12Mar2025 20:27:24.878] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LuxSilver lost connection: Disconnected
 [12Mar2025 20:27:24.878] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuxSilver left the game
+[12Mar2025 20:39:31.027] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LuxSilver[/127.69.220.99:40879] logged in with entity id 418 at (1.300000011920929, 82.0, -0.30000001192092896)
+[12Mar2025 20:39:31.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuxSilver joined the game
